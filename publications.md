@@ -13,9 +13,9 @@ This page is being updated. Please, in the meantime, check my full publications 
 
 **2024**
 ---
-* <span style="color:blue">**TokenVerse: Unifying Speech and NLP Tasks via Transducer-based ASR.**</span> *Shashi Kumar, Srikanth Madikeri, Juan Zuluaga-Gomez, Iuliia Nigmatulina, Esaú Villatoro-Tello, Sergio Burdisso, Petr Motlicek, Karthik Pandia, and Aravind Ganapathiraju.* Accepted to EMNLP 2024. [**[WEB]**](https://aclanthology.org/2024.emnlp-main.1167/)
+* <span style="color:blue">**TokenVerse: Unifying Speech and NLP Tasks via Transducer-based ASR.**</span> *Shashi Kumar, Srikanth Madikeri, Juan Zuluaga-Gomez, Iuliia Nigmatulina, Esaú Villatoro-Tello, Sergio Burdisso, Petr Motlicek, Karthik Pandia, and Aravind Ganapathiraju.* In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 20988–20995, Miami, Florida, USA. Association for Computational Linguistics. [**[WEB]**](https://aclanthology.org/2024.emnlp-main.1167/)
 
-* <span style="color:blue">**Fast Streaming Transducer ASR Prototyping via Knowledge Distillation with Whispe.**</span> *Iuliia Thorbecke, Juan Zuluaga-Gomez, Esaú Villatoro-Tello, Shashi Kumar, Pradeep Rangappa, Sergio Burdisso, Petr Motlicek, Karthik Pandia, Aravind Ganapathiraju.* Accepted to EMNLP 2024. [**[WEB]**](https://aclanthology.org/2024.findings-emnlp.976/)
+* <span style="color:blue">**Fast Streaming Transducer ASR Prototyping via Knowledge Distillation with Whispe.**</span> *Iuliia Thorbecke, Juan Zuluaga-Gomez, Esaú Villatoro-Tello, Shashi Kumar, Pradeep Rangappa, Sergio Burdisso, Petr Motlicek, Karthik Pandia, Aravind Ganapathiraju.* In Findings of the Association for Computational Linguistics: EMNLP 2024, pages 16747–16762, Miami, Florida, USA. Association for Computational Linguistics. [**[WEB]**](https://aclanthology.org/2024.findings-emnlp.976/)
 
 * <span style="color:blue">**Mapping the media landscape: predicting factual reporting and political bias through web interactions.**</span> *Dairazalia Sánchez-Cortés, Sergio Burdisso, Esaú Villatoro-Tello, Petr Motlicek.*  In: Goeuriot, L., et al. Experimental IR Meets Multilinguality, Multimodality, and Interaction. CLEF 2024. Lecture Notes in Computer Science, vol 14958. Springer. [**[DOI]**](https://doi.org/10.1007/978-3-031-71736-9_7)
 
