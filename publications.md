@@ -12,6 +12,8 @@ This page is being updated. Please, in the meantime, check my full publications 
     
 **2025**
 ---
+* <span style="color:blue">**Unifying Global and Near-Context Biasing in a Single Trie Pass.**</span> *Iuliia Thorbecke,  Esaú Villatoro-Tello, Juan Pablo Zuluaga, Shashi Kumar, Sergio Burdisso, Pradeep Rangappa, Andrés Carofilis, Srikanth Madikeri, Petr Motlicek, Karthik Pandia, Kadri Hacioğlu, Andreas Stolcke.* (Accepted) In TSD 2025. August 2025. [**[arXiv]**](https://arxiv.org/pdf/2409.13514)
+
 * <span style="color:blue">**Efficient Data Selection for Domain Adaptation of ASR Using Pseudo-Labels and Multi-Stage Filtering.**</span> *Pradeep Rangappa, Andres Carofilis, Jeena Prakash, Shashi Kumar, Sergio Burdisso, Srikanth Madikeri, Esaú Villatoro-Tello, Bidisha Sharma, Petr Motlicek, Kadri Hacioglu, Shankar Venkatesan, Saurabh Vyas, Andreas Stolcke.* (Accepted) In INTERSPEECH - 2025. August 2025. [**[arXiv]**](https://arxiv.org/abs/2506.03681)
 
 * <span style="color:blue">**Better Semi-supervised Learning for Multi-domain ASR Through Incremental Retraining and Data Filtering.**</span> *Andres Carofilis, Pradeep Rangappa, Srikanth Madikeri, Shashi Kumar, Sergio Burdisso, Jeena Prakash, Esaú Villatoro-Tello, Petr Motlicek, Bidisha Sharma, Kadri Hacioglu, Shankar Venkatesan4, Saurabh Vyas, Andreas Stolcke.* (Accepted) In INTERSPEECH - 2025. August 2025. [**[arXiv]**]()
