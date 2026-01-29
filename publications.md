@@ -15,6 +15,8 @@ This page is being updated. Please, in the meantime, check my full publications 
 
 * <span style="color:blue">**Reducing Prompt Sensitivity in LLM-based Speech Recognition Through Learnable Projection.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Srikanth  Madikeri, Andrés Carofilis, Pradeep Rangappa, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE ICASSP 2026.
 
+* <span style="color:blue">**SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation.**</span> *Sergio Burdisso, Séverin Baroudi, Yanis Labrak, David Grunert, Pawel Cyrta, Yiyang Chen, Srikanth Madikeri, Thomas Schaaf, Esaú Villatoro-Tello, Ahmed Hassoon, Ricard Marxer, Petr Motlicek.* [**[arXiv]**](https://arxiv.org/abs/2506.10622)
+
 **2025**
 ---
 * <span style="color:blue">**TokenVerse++: Towards Flexible Multitask Learning with Dynamic Task Activation.**</span> *Shashi Kumar, Srikanth Madikeri, Esaú Villatoro-Tello, Sergio Burdisso, Pradeep Rangappa, Andrés Carofilis, Petr Motlicek, Karthik Pandia, Shankar Venkatesan, Kadri Hacioğlu, Andreas Stolcke.* (Accepted) to IEEE ASRU 2025. Copyright©2025 IEEE. [**[arXiv]**](https://arxiv.org/abs/2508.19856)
