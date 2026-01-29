@@ -9,7 +9,12 @@ css: "/assets/css/index.css"
 
 This page is being updated. Please, in the meantime, check my full publications info at [Google Scholar](https://scholar.google.com/citations?hl=en&user=GzaiunYAAAAJ). 
 
-    
+**2026**
+---    
+* <span style="color:blue">**Text-only adaptation in LLM-based ASR through text denoising.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Andrés Carofilis, Shashi Kumar, Kadri Hacioglu, Srikanth  Madikeri, Pradeep Rangappa, Manjunath K E, Petr Motlicek, Shankar Venkatesan, Andreas Stolcke.* (Accepted) to IEEE ICASSP 2026.
+
+* <span style="color:blue">**Reducing Prompt Sensitivity in LLM-based Speech Recognition Through Learnable Projection.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Srikanth  Madikeri, Andrés Carofilis, Pradeep Rangappa, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE ICASSP 2026.
+
 **2025**
 ---
 * <span style="color:blue">**TokenVerse++: Towards Flexible Multitask Learning with Dynamic Task Activation.**</span> *Shashi Kumar, Srikanth Madikeri, Esaú Villatoro-Tello, Sergio Burdisso, Pradeep Rangappa, Andrés Carofilis, Petr Motlicek, Karthik Pandia, Shankar Venkatesan, Kadri Hacioğlu, Andreas Stolcke.* (Accepted) to IEEE ASRU 2025. Copyright©2025 IEEE. [**[arXiv]**](https://arxiv.org/abs/2508.19856)
