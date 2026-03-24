@@ -12,7 +12,7 @@ This page is being updated. Please, in the meantime, check my full publications 
 **2026**
 ---    
 
-* <span style="color:blue">**When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews.**</span> *Hasindri Watawana, Sergio Burdisso, Diego A. Moreno-Galván, Fernando Sánchez-Vega, A. Pastor López-Monroy, Petr Motlicek, Esaú Villatoro-Tello.* In Proceedings of the 2026 Language Resources and Evaluation Conference.[**[WEB]**]().[**[arXiv]**]().
+* <span style="color:blue">**When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews.**</span> *Hasindri Watawana, Sergio Burdisso, Diego A. Moreno-Galván, Fernando Sánchez-Vega, A. Pastor López-Monroy, Petr Motlicek, Esaú Villatoro-Tello.* In Proceedings of the 2026 Language Resources and Evaluation Conference LREC 2026. [**[WEB]**]() [**[arXiv]**]().
 
 * <span style="color:blue">**Text-only adaptation in LLM-based ASR through text denoising.**</span> *Andrés Carofilis, Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Kadri Hacioglu, Srikanth  Madikeri, Pradeep Rangappa, Manjunath K E, Petr Motlicek, Shankar Venkatesan, Andreas Stolcke.* [**[arXiv]**](https://arxiv.org/abs/2601.20900).
 
