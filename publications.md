@@ -18,7 +18,7 @@ This page is being updated. Please, in the meantime, check my full publications 
 
 * <span style="color:blue">**Reducing Prompt Sensitivity in LLM-based Speech Recognition Through Learnable Projection.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Srikanth  Madikeri, Andrés Carofilis, Pradeep Rangappa, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE ICASSP 2026. [**[arXiv]**](https://arxiv.org/abs/2601.20898)
 
-* <span style="color:blue">**SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation.**</span> *Sergio Burdisso, Séverin Baroudi, Yanis Labrak, David Grunert, Pawel Cyrta, Yiyang Chen, Srikanth Madikeri, Thomas Schaaf, Esaú Villatoro-Tello, Ahmed Hassoon, Ricard Marxer, Petr Motlicek.* In Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 3: System Demonstrations).[**[WEB]**](https://aclanthology.org/2026.eacl-demo.23/) [**[arXiv]**](https://arxiv.org/abs/2506.10622)
+* <span style="color:blue">**SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation.**</span> *Sergio Burdisso, Séverin Baroudi, Yanis Labrak, David Grunert, Pawel Cyrta, Yiyang Chen, Srikanth Madikeri, Thomas Schaaf, Esaú Villatoro-Tello, Ahmed Hassoon, Ricard Marxer, Petr Motlicek.* In Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026) (Volume 3: System Demonstrations).[**[WEB]**](https://aclanthology.org/2026.eacl-demo.23/) [**[arXiv]**](https://arxiv.org/abs/2506.10622)
 
 **2025**
 ---
