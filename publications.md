@@ -11,11 +11,14 @@ This page is being updated. Please, in the meantime, check my full publications 
 
 **2026**
 ---    
-* <span style="color:blue">**Text-only adaptation in LLM-based ASR through text denoising.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Andrés Carofilis, Shashi Kumar, Kadri Hacioglu, Srikanth  Madikeri, Pradeep Rangappa, Manjunath K E, Petr Motlicek, Shankar Venkatesan, Andreas Stolcke.* (Accepted) to IEEE ICASSP 2026.
 
-* <span style="color:blue">**Reducing Prompt Sensitivity in LLM-based Speech Recognition Through Learnable Projection.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Srikanth  Madikeri, Andrés Carofilis, Pradeep Rangappa, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE ICASSP 2026.
+* <span style="color:blue">**When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews.**</span> *Hasindri Watawana, Sergio Burdisso, Diego A. Moreno-Galván, Fernando Sánchez-Vega, A. Pastor López-Monroy, Petr Motlicek, Esaú Villatoro-Tello.* In Proceedings of the 2026 Language Resources and Evaluation Conference.[**[WEB]**]().[**[arXiv]**]().
 
-* <span style="color:blue">**SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation.**</span> *Sergio Burdisso, Séverin Baroudi, Yanis Labrak, David Grunert, Pawel Cyrta, Yiyang Chen, Srikanth Madikeri, Thomas Schaaf, Esaú Villatoro-Tello, Ahmed Hassoon, Ricard Marxer, Petr Motlicek.* [**[arXiv]**](https://arxiv.org/abs/2506.10622)
+* <span style="color:blue">**Text-only adaptation in LLM-based ASR through text denoising.**</span> *Andrés Carofilis, Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Kadri Hacioglu, Srikanth  Madikeri, Pradeep Rangappa, Manjunath K E, Petr Motlicek, Shankar Venkatesan, Andreas Stolcke.* [**[arXiv]**](https://arxiv.org/abs/2601.20900).
+
+* <span style="color:blue">**Reducing Prompt Sensitivity in LLM-based Speech Recognition Through Learnable Projection.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Srikanth  Madikeri, Andrés Carofilis, Pradeep Rangappa, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE ICASSP 2026. [**[arXiv]**](https://arxiv.org/abs/2601.20898)
+
+* <span style="color:blue">**SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation.**</span> *Sergio Burdisso, Séverin Baroudi, Yanis Labrak, David Grunert, Pawel Cyrta, Yiyang Chen, Srikanth Madikeri, Thomas Schaaf, Esaú Villatoro-Tello, Ahmed Hassoon, Ricard Marxer, Petr Motlicek.* In Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (Volume 3: System Demonstrations).[**[WEB]**](https://aclanthology.org/2026.eacl-demo.23/) [**[arXiv]**](https://arxiv.org/abs/2506.10622)
 
 **2025**
 ---
