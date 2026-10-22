@@ -1,0 +1,337 @@
+/* Research Projects page */
+
+.research-page {
+  --rp-text: #404040;
+  --rp-muted: #6b6f76;
+  --rp-border: #e3e6ea;
+  --rp-surface: #ffffff;
+  --rp-subtle: #f6f7f9;
+  --rp-accent: #4b3b63;        /* ORIENTER plum */
+  --rp-accent-dark: #382b4b;
+  --rp-accent-2: #2f8494;      /* ORIENTER teal */
+  --rp-sans: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: var(--rp-text);
+}
+
+/* ---------- Tabs ---------- */
+
+.research-page .tab-wrapper {
+  margin: 0.5rem 0 2rem;
+}
+
+.research-page .tab {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid var(--rp-border);
+  border-radius: 12px;
+  background: var(--rp-subtle);
+  overflow: visible;
+}
+
+.research-page .tab button {
+  font-family: var(--rp-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--rp-muted);
+  padding: 0.55rem 1.15rem;
+  border-radius: 9px;
+  background: transparent;
+  transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.research-page .tab button:hover {
+  background: #eceef1;
+  color: var(--rp-text);
+}
+
+.research-page .tab button.active {
+  background: var(--rp-surface);
+  color: #222;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.research-page .tab button:focus-visible {
+  outline: 2px solid var(--rp-accent-2);
+  outline-offset: 2px;
+}
+
+.research-page .tabcontent {
+  border: none;
+  padding: 0;
+}
+
+/* ---------- Section headings ---------- */
+
+.research-page .section-label {
+  font-family: var(--rp-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--rp-muted);
+  margin: 2rem 0 0.9rem;
+}
+
+.research-page .section-label:first-child {
+  margin-top: 0;
+}
+
+/* ---------- Project cards ---------- */
+
+.project-card {
+  background: var(--rp-surface);
+  border: 1px solid var(--rp-border);
+  border-radius: 12px;
+  padding: 1.5rem 1.6rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.project-card--featured {
+  border-top: 4px solid var(--rp-accent);
+  padding: 1.75rem 1.75rem 1.6rem;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.1rem;
+}
+
+.project-logo {
+  flex: none;
+  width: 104px;
+  height: 104px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #f8f7f5;
+  border: 1px solid var(--rp-border);
+}
+
+.project-eyebrow {
+  display: block;
+  font-family: var(--rp-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--rp-muted);
+}
+
+.project-eyebrow--live {
+  color: var(--rp-accent-2);
+}
+
+.project-eyebrow--live::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 0.45rem;
+  border-radius: 50%;
+  background: var(--rp-accent-2);
+  vertical-align: 1px;
+}
+
+.project-card h3.project-name {
+  margin: 0.2rem 0 0.3rem;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  color: #222;
+}
+
+.project-card--featured h3.project-name {
+  font-size: 1.75rem;
+  color: var(--rp-accent);
+  letter-spacing: 0.01em;
+}
+
+.project-fullname {
+  margin: 0;
+  font-family: var(--rp-sans);
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--rp-muted);
+}
+
+.project-card p.project-summary {
+  margin: 0 0 1.2rem;
+  font-size: 1.02rem;
+  line-height: 1.65;
+}
+
+.project-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0.9rem 1.5rem;
+  margin: 0;
+  padding: 1rem 1.2rem;
+  background: var(--rp-subtle);
+  border-radius: 8px;
+}
+
+.project-meta dt {
+  font-family: var(--rp-sans);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--rp-muted);
+  margin-bottom: 0.2rem;
+}
+
+.project-meta dd {
+  margin: 0;
+  font-family: var(--rp-sans);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--rp-text);
+}
+
+.project-meta .meta-wide {
+  grid-column: 1 / -1;
+}
+
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-top: 1.2rem;
+}
+
+.project-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--rp-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.55rem 1.05rem;
+  border-radius: 8px;
+  border: 1px solid #cfd4da;
+  background: var(--rp-surface);
+  color: var(--rp-text);
+  text-decoration: none;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.project-btn:hover,
+.project-btn:focus {
+  border-color: var(--rp-accent);
+  color: var(--rp-accent);
+  text-decoration: none;
+}
+
+.project-btn--primary {
+  background: var(--rp-accent);
+  border-color: var(--rp-accent);
+  color: #fff;
+}
+
+.project-btn--primary:hover,
+.project-btn--primary:focus {
+  background: var(--rp-accent-dark);
+  border-color: var(--rp-accent-dark);
+  color: #fff;
+}
+
+/* ---------- Scientific activities ---------- */
+
+.activity-list {
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+  background: var(--rp-surface);
+  border: 1px solid var(--rp-border);
+  border-radius: 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.activity-list li {
+  display: grid;
+  grid-template-columns: 6.25rem 1fr auto;
+  gap: 0.25rem 1.25rem;
+  align-items: baseline;
+  padding: 1rem 1.4rem;
+  border-top: 1px solid var(--rp-border);
+}
+
+.activity-list li:first-child {
+  border-top: none;
+}
+
+.activity-tag {
+  font-family: var(--rp-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--rp-muted);
+}
+
+.activity-title {
+  display: block;
+  font-family: var(--rp-sans);
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.activity-desc {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-top: 0.15rem;
+}
+
+.activity-link {
+  font-family: var(--rp-sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ---------- Small screens ---------- */
+
+@media (max-width: 575px) {
+  .research-page .tab {
+    display: flex;
+  }
+
+  .research-page .tab button {
+    flex: 1 1 auto;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+  }
+
+  .project-card,
+  .project-card--featured {
+    padding: 1.2rem 1.1rem;
+  }
+
+  .project-header {
+    align-items: flex-start;
+    gap: 0.9rem;
+  }
+
+  .project-logo {
+    width: 72px;
+    height: 72px;
+  }
+
+  .project-card--featured h3.project-name {
+    font-size: 1.4rem;
+  }
+
+  .project-btn {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .activity-list li {
+    grid-template-columns: 1fr;
+    padding: 0.9rem 1.1rem;
+  }
+}
