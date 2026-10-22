@@ -12,6 +12,22 @@ This page is being updated. Please, in the meantime, check my full publications 
 **2026**
 ---    
 
+* <span style="color:blue">**Abstract Compression of Conversational Audio Context for LLM-based ASR.**</span> *Shashi Kumar, Esaú Villatoro-Tello, Sergio Burdisso, Kadri Hacioglu, Thibault Bañeras-Roux, Hasindri Watawana, Dairazalia Sánchez-Cortés, Srikanth Madikeri, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE SLT 2026. [**[arXiv]**](https://arxiv.org/abs/2603.26246)
+
+* <span style="color:blue">**How to Leverage Synthetic Speech for LLM-Based ASR Systems?**</span> *Yanis Labrak, Dairazalia Sánchez-Cortés, Sergio Burdisso, Séverin Baroudi, Shashi Kumar, Esaú Villatoro-Tello, Srikanth Madikeri, Manjunath K E, Oldřich Plchot, Kadri Hacioğlu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE SLT 2026. [**[arXiv]**](https://arxiv.org/abs/2606.29031)
+
+* <span style="color:blue">**No Audio, No Transcripts, No Problem: LLM-based ASR Adaptation Using Only Domain Documents.**</span> *Sergio Burdisso, Dairazalia Sánchez-Cortés, Esaú Villatoro-Tello, Thibault Bañeras-Roux, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE SLT 2026. [**[PDF]**](https://publications.idiap.ch/attachments/papers/2026/Burdisso_SLT_2026.pdf)
+
+* <span style="color:blue">**When Synthetic Speech Is All You Have: Better Call GRPO.**</span> *Shashi Kumar, Yanis Labrak, Hasindri Watawana, Sergio Burdisso, Esaú Villatoro-Tello, Kadri Hacioğlu, Petr Motlicek, Andreas Stolcke.* (Accepted) to IEEE SLT 2026. [**[arXiv]**](https://arxiv.org/abs/2607.08409)
+
+* <span style="color:blue">**Modelling Thematic Structure in Clinical Dialogues for Interpretable Depression Detection.**</span> *Esaú Villatoro-Tello, Ernesto A. Reyes-Ramírez, Sergio Burdisso, Hasindri Watawana, Petr Motlicek, Fernando Sánchez-Vega, A. Pastor López-Monroy.* In Text, Speech, and Dialogue, TSD 2026 Conference. Lecture Notes in Computer Science, pages 580–591. Springer. [**[WEB]**](https://link.springer.com/chapter/10.1007/978-3-032-37249-9_47)
+
+* <span style="color:blue">**Context Projector: Complementary Keyword and Dialogue Context Embeddings for LLM-based ASR.**</span> *Esaú Villatoro-Tello, Sergio Burdisso, Shashi Kumar, Hasindri Watawana, Srikanth Madikeri, Manjunath K E, Jeena Prakash, Thibault Bañeras-Roux, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* In Proceedings of INTERSPEECH 2026, pages 3410–3415. [**[WEB]**](https://www.isca-archive.org/interspeech_2026/villatorotello26_interspeech.html)
+
+* <span style="color:blue">**Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising.**</span> *Sergio Burdisso, Esaú Villatoro-Tello, Thibault Bañeras-Roux, Shashi Kumar, Srikanth Madikeri, Pradeep Rangappa, Manjunath K E, Petr Motlicek, Andreas Stolcke.* In Proceedings of INTERSPEECH 2026, pages 4597–4602. [**[WEB]**](https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.html)
+
+* <span style="color:blue">**Closing the Speech-Text Gap with Limited Audio for Effective Domain Adaptation in LLM-Based ASR.**</span> *Thibault Bañeras-Roux, Sergio Burdisso, Esaú Villatoro-Tello, Dairazalia Sánchez-Cortés, Shiran Liu, Séverin Baroudi, Shashi Kumar, Hasindri Watawana, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke.* In Proceedings of INTERSPEECH 2026, pages 6239–6244. [**[WEB]**](https://www.isca-archive.org/interspeech_2026/banerasroux26_interspeech.html) [**[arXiv]**](https://arxiv.org/abs/2604.06487)
+
 * <span style="color:blue">**When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews.**</span> *Hasindri Watawana, Sergio Burdisso, Diego A. Moreno-Galván, Fernando Sánchez-Vega, A. Pastor López-Monroy, Petr Motlicek, Esaú Villatoro-Tello.* In Proceedings of the 2026 Language Resources and Evaluation Conference LREC 2026. [**[WEB]**]() [**[arXiv]**]().
 
 * <span style="color:blue">**Text-only adaptation in LLM-based ASR through text denoising.**</span> *Andrés Carofilis, Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Kadri Hacioglu, Srikanth  Madikeri, Pradeep Rangappa, Manjunath K E, Petr Motlicek, Shankar Venkatesan, Andreas Stolcke.* [**[arXiv]**](https://arxiv.org/abs/2601.20900).
