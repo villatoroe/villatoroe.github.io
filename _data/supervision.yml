@@ -1,0 +1,357 @@
+# Thesis supervision shown in the "Supervision" section of /teaching
+#
+# One entry per thesis, newest first within each level.
+#
+# Fields
+#   students      list of student names (group theses list every member)
+#   level         phd | master | bachelor
+#   status        completed | ongoing
+#   date          graduation date as shown on the page ("June 2022"); expected date when ongoing
+#   year, month   graduation (or expected) year and month, used to place the thesis on the timeline
+#   institution   program and institution
+#   thesis        thesis title in English (optional)
+#   thesis_es     thesis title in Spanish (optional)
+#   description   short description (optional)
+#   publications  related publications (optional), each with title, venue and an optional url
+
+# ---------------------------------------------------------------- PhD
+- students: ["Hasindri Watawana"]
+  level: phd
+  status: ongoing
+  date: "July 2029"
+  year: 2029
+  month: 7
+  institution: "EPFL (EDEE), Switzerland"
+  description: "Funded by the ORIENTER project, the research focuses on developing interpretable multimodal architectures for detecting depression and analyzing disease progression from clinical interviews."
+  publications:
+    - title: "When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews"
+      venue: "LREC 2026"
+      url: https://aclanthology.org/2026.lrec-1.185/
+
+- students: ["Diego Aarón Moreno Galván"]
+  level: phd
+  status: ongoing
+  date: "July 2029"
+  year: 2029
+  month: 7
+  institution: "CIMAT, Mexico"
+  description: "Supported by the ORIENTER project, the research explores controllable and grounded approaches to synthetic data generation aimed at improving the training of depression detection models."
+  publications:
+    - title: "When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews"
+      venue: "LREC 2026"
+      url: https://aclanthology.org/2026.lrec-1.185/
+
+- students: ["Amadeo M. Hernández Hernández"]
+  level: phd
+  status: completed
+  date: "November 2025"
+  year: 2025
+  month: 11
+  institution: "UPT, Mexico"
+  thesis: "Translation of natural language instructions into machine commands in a scenario of scarce linguistic resources"
+  thesis_es: "Traducción de instrucciones en lenguaje natural a comandos máquina en un escenario de escasos recursos lingüísticos"
+  publications:
+    - title: "Natural Language Understanding for Navigation of Service Robots in Low-Resource Domains and Languages: Scenarios in Spanish and Nahuatl"
+      venue: "Mathematics, 2024"
+      url: https://doi.org/10.3390/math12081136
+
+- students: ["Horacio Thompson"]
+  level: phd
+  status: completed
+  date: "2025"
+  year: 2025
+  month: 12
+  institution: "UNSL, Argentina"
+  thesis: "Informed Machine Learning for Early Detection of Risks on the Web"
+  thesis_es: "Aprendizaje Automático Informado en la Detección Anticipada de Riesgos en la Web"
+  publications:
+    - title: "Temporal fine-tuning for early risk detection"
+      venue: "Memorias de las JAIIO, 2024"
+      url: https://publicaciones.sadio.org.ar/index.php/JAIIO/article/view/1020
+
+- students: ["Gabriela Ramírez de la Rosa"]
+  level: phd
+  status: completed
+  date: "July 2024"
+  year: 2024
+  month: 7
+  institution: "UAM Cuajimalpa, Mexico"
+  thesis: "A latent characteristic-based representation for personality identification"
+  thesis_es: "Una representación basada en características latentes para la identificación de la personalidad"
+  publications:
+    - title: "A lexical-availability-based framework from short communications for automatic personality identification"
+      venue: "Cognitive Systems Research, 2023"
+      url: https://doi.org/10.1016/j.cogsys.2023.01.006
+
+- students: ["Miguel Ángel Álvarez Carmona"]
+  level: phd
+  status: completed
+  date: "March 2019"
+  year: 2019
+  month: 3
+  institution: "INAOE, Mexico"
+  thesis: "Author Profiling in Social Media with Multimodal Information"
+  publications:
+    - title: "Author Profiling in Social Media with Multimodal Information"
+      venue: "Computación y Sistemas, 2020"
+      url: https://doi.org/10.13053/cys-24-3-3488
+    - title: "A visual approach for age and gender identification on Twitter"
+      venue: "Journal of Intelligent & Fuzzy Systems, 2018"
+      url: https://doi.org/10.3233/JIFS-169497
+
+# ---------------------------------------------------------------- Master's
+- students: ["Ernesto Antonio Reyes Ramírez"]
+  level: master
+  status: completed
+  date: "March 2025"
+  year: 2025
+  month: 3
+  institution: "CIMAT, Mexico"
+  thesis: "Graph convolutional network and topic modeling for classification of depressive disorder"
+  publications:
+    - title: "DAIC-WOZ: On the Validity of Using the Therapist's Prompts in Automatic Depression Detection from Clinical Interviews"
+      venue: "Clinical NLP Workshop @ NAACL 2024"
+      url: https://aclanthology.org/2024.clinicalnlp-1.8/
+
+- students: ["Mariana V. López Ortíz", "M. Ester Calderón Casanova", "Patricia Galán Lara", "M. Elena Sánchez Vilchis"]
+  level: master
+  status: completed
+  date: "June 2019"
+  year: 2019
+  month: 6
+  institution: "MADIC, UAM Cuajimalpa, Mexico"
+  thesis: "Information System for decision making on the management of urban solid waste in Mexico City"
+  thesis_es: "Sistema de Información para la toma de decisiones sobre la gestión de residuos sólidos urbanos en la Ciudad de México"
+  publications:
+    - title: "Predicción de la generación de residuos sólidos urbanos en la Ciudad de México"
+      venue: "Research in Computing Science, 2018"
+      url: https://doi.org/10.13053/rcs-147-5-5
+
+- students: ["José Ramón Gálvez Pérez", "Bárbara Gómez Torrero", "Raúl Ignacio Ramírez Chávez", "Kathia Michel Sánchez Sandoval"]
+  level: master
+  status: completed
+  date: "March 2013"
+  year: 2013
+  month: 3
+  institution: "MADIC, UAM Cuajimalpa, Mexico"
+  thesis: "Automatic system for classifying public opinion in tweets in Spanish"
+  thesis_es: "Sistema automático de clasificación de la opinión pública en tuits en español"
+  publications:
+    - title: "Sistema Automático para la Clasificación de la Opinión Pública Generada en Twitter"
+      venue: "Research in Computing Science, 2015"
+      url: https://doi.org/10.13053/rcs-95-1-2
+
+# ---------------------------------------------------------------- Bachelor's
+- students: ["Nathalie Reyes Zauco"]
+  level: bachelor
+  status: completed
+  date: "June 2022"
+  year: 2022
+  month: 6
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Information Retrieval System from transcribed documents"
+  thesis_es: "Sistema de Recuperación de Información a partir de documentos transcritos"
+
+- students: ["Gerardo Uriel Ruiz Santiago"]
+  level: bachelor
+  status: completed
+  date: "October 2021"
+  year: 2021
+  month: 10
+  institution: "UAM Cuajimalpa, Mexico"
+  thesis: "Online tool for visualizing and contrasting relevant vocabulary for different populations"
+  thesis_es: "Herramienta para la visualización y contraste de vocabulario relevante para diferentes poblaciones"
+
+- students: ["Luis Armando Arías Romero"]
+  level: bachelor
+  status: completed
+  date: "March 2021"
+  year: 2021
+  month: 3
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Detection and Visualization of Topics in Informal Conversations"
+  thesis_es: "Detección y Visualización de Tópicos en Conversaciones Informales"
+  publications:
+    - title: "Análisis y seguimiento de tópicos en las conferencias matutinas del presidente de México"
+      venue: "Research in Computing Science, 2021"
+      url: "https://www.rcs.cic.ipn.mx/2021_150_5/Analisis%20y%20seguimiento%20de%20topicos%20en%20las%20conferencias%20matutinas%20del%20presidente%20de%20Mexico.pdf"
+
+- students: ["Érika Sarai Rosas Quezada"]
+  level: bachelor
+  status: completed
+  date: "November 2019"
+  year: 2019
+  month: 11
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Predicting the impact of Facebook posts"
+  thesis_es: "Prediciendo el impacto de una publicación de Facebook"
+  publications:
+    - title: "Predicting consumer engagement on Facebook based on what and how companies write"
+      venue: "Journal of Intelligent & Fuzzy Systems, 2020"
+      url: https://doi.org/10.3233/JIFS-179897
+    - title: "Corpus Reacción: consumers engagement in Facebook posts"
+      venue: "OpenCor 2019"
+
+- students: ["Ángeles López Flores"]
+  level: bachelor
+  status: completed
+  date: "September 2019"
+  year: 2019
+  month: 9
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Web support system for the automatic identification of textual evidence in cases of pedophilia"
+  thesis_es: "Sistema web de apoyo para la identificación automática de evidencia textual en casos de pedofilia"
+  publications:
+    - title: "Finding Evidence of the Sexual Predators Behavior"
+      venue: "LatinX in AI at NeurIPS 2019"
+
+- students: ["Tonantzin Angélica Siurob Palomero"]
+  level: bachelor
+  status: completed
+  date: "September 2019"
+  year: 2019
+  month: 9
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Texts from users with depression: attributes that represent them and possible detection"
+  thesis_es: "Textos de usuarios con depresión: atributos que los representan y posible detección"
+
+- students: ["Alejandro Díaz Ávalos"]
+  level: bachelor
+  status: completed
+  date: "June 2019"
+  year: 2019
+  month: 6
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Automatic tool to differentiate dialect areas of Mexico on Twitter"
+  thesis_es: "Herramienta automática para diferenciar zonas dialectales de México en Twitter"
+
+- students: ["Jorge Elías Vigil Santos"]
+  level: bachelor
+  status: completed
+  date: "April 2019"
+  year: 2019
+  month: 4
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Tool to visualize personality similarities between Twitter users"
+  thesis_es: "Herramienta para visualizar similitudes de la personalidad entre usuarios en Twitter"
+
+- students: ["Orlando Hernández Hernández"]
+  level: bachelor
+  status: completed
+  date: "April 2018"
+  year: 2018
+  month: 4
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Automatic Generation of Summaries guided by the user's query"
+  thesis_es: "Generación Automática de Resúmenes guiados por la consulta del usuario"
+  publications:
+    - title: "Sistema para la generación personalizada de resúmenes a partir de múltiples documentos"
+      venue: "Research in Computing Science, 2018"
+      url: https://doi.org/10.13053/rcs-147-6-6
+
+- students: ["José Antonio Hernández Ambrocio"]
+  level: bachelor
+  status: completed
+  date: "November 2017"
+  year: 2017
+  month: 11
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Sentiment and emotion analysis in digital documents"
+  thesis_es: "Análisis de Sentimientos y Emociones en Documentos Digitales"
+  publications:
+    - title: "Un método para el análisis de sentimientos bajo un enfoque supervisado usando recursos léxicos"
+      venue: "Research in Computing Science, 2018"
+      url: https://doi.org/10.13053/rcs-147-6-17
+
+- students: ["Emmanuel Ulisses González López"]
+  level: bachelor
+  status: completed
+  date: "June 2017"
+  year: 2017
+  month: 6
+  institution: "UAM Cuajimalpa, Mexico"
+  thesis: "Web platform for searching and viewing word’s concordances in digital documents"
+  thesis_es: "Plataforma WEB para la búsqueda y visualización de concordancias en documentos digitales"
+
+- students: ["Janet Viridiana Hernández García"]
+  level: bachelor
+  status: completed
+  date: "April 2016"
+  year: 2016
+  month: 4
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Identifying personality traits through Automated Text Analysis"
+  thesis_es: "Identificación de rasgos de personalidad a través del Análisis Automatizado de Textos"
+  publications:
+    - title: "Aplicación web para identificar personalidad, género y edad de usuarios en Twitter"
+      venue: "Research in Computing Science, 2016"
+      url: https://doi.org/10.13053/rcs-115-1-8
+
+- students: ["Ángel Callejas Rodríguez"]
+  level: bachelor
+  status: completed
+  date: "September 2015"
+  year: 2015
+  month: 9
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "“Chatbot” to support the Identification of Sexual Predators on the Internet"
+  thesis_es: "“Chatbot” para el apoyo en la Identificación de Depredadores Sexuales en Internet"
+  publications:
+    - title: "From dialogue corpora to dialogue systems: Generating a chatbot with teenager personality for preventing cyber-pedophilia"
+      venue: "TSD 2016, LNAI vol. 9924"
+      url: https://doi.org/10.1007/978-3-319-45510-5_61
+
+- students: ["Griselda Velázquez Villar"]
+  level: bachelor
+  status: completed
+  date: "June 2015"
+  year: 2015
+  month: 6
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Automatic System for Visualizing Relationships of Opinions Produced on Twitter"
+  thesis_es: "Sistema Automático para la Visualización de Relaciones de Opiniones Producidas en Twitter"
+  publications:
+    - title: "Plataforma web para la identificación y el análisis de eventos en Twitter"
+      venue: "Research in Computing Science, 2015"
+      url: https://doi.org/10.13053/rcs-97-1-6
+
+- students: ["Julio César Torres López"]
+  level: bachelor
+  status: completed
+  date: "March 2014"
+  year: 2014
+  month: 3
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Online laboratory for automatic document processing"
+  thesis_es: "Laboratorio en línea para el procesamiento automático de documentos"
+  publications:
+    - title: "Laboratorio en Línea para el Procesamiento Automático de Documentos"
+      venue: "Research in Computing Science, 2014"
+      url: https://doi.org/10.13053/rcs-72-1-2
+
+- students: ["Raymundo Picazo Álvarez"]
+  level: bachelor
+  status: completed
+  date: "December 2013"
+  year: 2013
+  month: 12
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "Assistant teaching tool in detecting plagiarism in source code"
+  thesis_es: "Herramienta docente auxiliar en la detección de plagio en código fuente"
+  publications:
+    - title: "Herramienta de apoyo en la Detección de Reutilización de Código Fuente"
+      venue: "Research in Computing Science, 2014"
+      url: https://doi.org/10.13053/rcs-73-1-3
+
+- students: ["Víctor Oscar Díaz Torres"]
+  level: bachelor
+  status: completed
+  date: "March 2013"
+  year: 2013
+  month: 3
+  institution: "LTSI, UAM Cuajimalpa, Mexico"
+  thesis: "WSDL Document Representation Analysis"
+  thesis_es: "Análisis de la representación de documentos WSDL"
+  publications:
+    - title: "Clasificación de Servicios Web Empleando Estrategias Supervisadas"
+      venue: "Research in Computing Science, 2013"

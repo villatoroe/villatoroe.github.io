@@ -2,7 +2,11 @@
 layout: page
 title: Teaching Activities
 subtitle: Teaching and supervision
-css: "/assets/css/index.css"
+css:
+  - "/assets/css/index.css"
+  - "/assets/css/supervision.css"
+js:
+  - "/assets/js/supervision.js"
 ---
 
 <hr>
@@ -100,3 +104,102 @@ The next table shows the details of the courses I had under my responsibility at
 <hr>
 
 ### Supervision
+
+{%- comment -%}
+  Generated from _data/supervision.yml. To add a thesis, add an entry to that file.
+{%- endcomment -%}
+{%- assign sup = site.data.supervision -%}
+{%- assign sup_phd = sup | where: "level", "phd" -%}
+{%- assign sup_master = sup | where: "level", "master" -%}
+{%- assign sup_bachelor = sup | where: "level", "bachelor" -%}
+{%- assign sup_ongoing = sup | where: "status", "ongoing" -%}
+{%- assign phd_ongoing = sup_phd | where: "status", "ongoing" | size -%}
+{%- assign n_students = 0 -%}{%- for t in sup -%}{%- assign n_students = n_students | plus: t.students.size -%}{%- endfor -%}
+{%- assign n_master_students = 0 -%}{%- for t in sup_master -%}{%- assign n_master_students = n_master_students | plus: t.students.size -%}{%- endfor %}
+
+<div class="sup-page" id="sup-page">
+
+<p class="sup-intro">Theses I have supervised or co-supervised at the bachelor's, master's and PhD levels, together with the publications derived from them.</p>
+
+<div class="sup-stats">
+  <div class="sup-stat sup-stat--total">
+    <span class="sup-stat-value">{{ n_students }}</span>
+    <span class="sup-stat-label">Students supervised</span>
+  </div>
+  <div class="sup-stat">
+    <span class="sup-stat-value">{{ sup_phd.size }}</span>
+    <span class="sup-stat-label"><span class="sup-dot sup-dot--phd"></span>PhD students{% if phd_ongoing > 0 %} · {{ phd_ongoing }} ongoing{% endif %}</span>
+  </div>
+  <div class="sup-stat">
+    <span class="sup-stat-value">{{ n_master_students }}</span>
+    <span class="sup-stat-label"><span class="sup-dot sup-dot--master"></span>Master's students · {{ sup_master.size }} theses</span>
+  </div>
+  <div class="sup-stat">
+    <span class="sup-stat-value">{{ sup_bachelor.size }}</span>
+    <span class="sup-stat-label"><span class="sup-dot sup-dot--bachelor"></span>Bachelor's students</span>
+  </div>
+</div>
+
+<figure class="sup-chart sup-needs-js" aria-labelledby="sup-chart-title">
+  <div class="sup-chart-head">
+    <figcaption id="sup-chart-title" class="sup-chart-title">Theses over time</figcaption>
+    <ul class="sup-legend" aria-label="Legend">
+      <li><span class="sup-key sup-key--done"></span>Completed</li>
+      <li><span class="sup-key sup-key--ongoing"></span>Ongoing (expected graduation)</li>
+    </ul>
+  </div>
+  <div class="sup-chart-plot" id="sup-chart-plot"></div>
+  <p class="sup-chart-hint">Each dot is one thesis, placed at its graduation date. Select a dot to see it below.</p>
+  <div class="sup-tooltip" id="sup-tooltip" role="status" hidden></div>
+</figure>
+
+<div class="sup-filters sup-needs-js" role="group" aria-label="Filter theses">
+  <button type="button" class="sup-chip is-active" data-filter="all" aria-pressed="true">All <span class="sup-chip-count">{{ sup.size }}</span></button>
+  <button type="button" class="sup-chip" data-filter="phd" aria-pressed="false"><span class="sup-dot sup-dot--phd"></span>PhD <span class="sup-chip-count">{{ sup_phd.size }}</span></button>
+  <button type="button" class="sup-chip" data-filter="master" aria-pressed="false"><span class="sup-dot sup-dot--master"></span>Master's <span class="sup-chip-count">{{ sup_master.size }}</span></button>
+  <button type="button" class="sup-chip" data-filter="bachelor" aria-pressed="false"><span class="sup-dot sup-dot--bachelor"></span>Bachelor's <span class="sup-chip-count">{{ sup_bachelor.size }}</span></button>
+  <button type="button" class="sup-chip" data-filter="ongoing" aria-pressed="false"><span class="sup-key sup-key--ongoing"></span>Ongoing <span class="sup-chip-count">{{ sup_ongoing.size }}</span></button>
+</div>
+
+{%- assign levels = "phd|PhD students,master|Master's students,bachelor|Bachelor's students" | split: "," %}
+{%- for lv in levels %}
+{%- assign lv_key = lv | split: "|" | first -%}
+{%- assign lv_label = lv | split: "|" | last -%}
+{%- assign theses = sup | where: "level", lv_key %}
+<section class="sup-level" data-level="{{ lv_key }}">
+  <h4 class="sup-level-title"><span class="sup-dot sup-dot--{{ lv_key }}"></span>{{ lv_label }} <span class="sup-level-count">{{ theses.size }} {% if theses.size == 1 %}thesis{% else %}theses{% endif %}</span></h4>
+  <div class="sup-grid">
+  {%- for t in theses %}
+    <article class="sup-card" id="sup-{{ lv_key }}-{{ forloop.index }}" data-level="{{ lv_key }}" data-status="{{ t.status }}" data-year="{{ t.year }}" data-month="{{ t.month }}" data-date="{{ t.date }}" data-names="{{ t.students | join: ', ' | escape }}" data-thesis="{{ t.thesis | default: t.description | escape }}">
+      <div class="sup-card-top">
+        {%- if t.status == "ongoing" %}
+        <span class="sup-badge sup-badge--ongoing"><span class="sup-key sup-key--ongoing"></span>Ongoing · expected {{ t.date }}</span>
+        {%- else %}
+        <span class="sup-badge"><span class="sup-key sup-key--done sup-key--{{ lv_key }}"></span>{{ t.date }}</span>
+        {%- endif %}
+        <span class="sup-inst">{{ t.institution }}</span>
+      </div>
+      <p class="sup-names">{{ t.students | join: ", " }}</p>
+      {%- if t.thesis %}
+      <p class="sup-thesis">{{ t.thesis }}</p>
+      {%- endif %}
+      {%- if t.thesis_es %}
+      <p class="sup-thesis-es" lang="es">{{ t.thesis_es }}</p>
+      {%- endif %}
+      {%- if t.description %}
+      <p class="sup-desc">{{ t.description }}</p>
+      {%- endif %}
+      {%- if t.publications %}
+      <ul class="sup-pubs" aria-label="Related publications">
+        {%- for p in t.publications %}
+        <li>{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %} <span class="sup-pub-venue">{{ p.venue }}</span></li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+    </article>
+  {%- endfor %}
+  </div>
+</section>
+{%- endfor %}
+
+</div>
