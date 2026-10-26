@@ -1,0 +1,960 @@
+# Publications shown on /publications
+#
+# One entry per publication. Entries are grouped by `year` on the page and keep
+# the order of this file inside each year (newest first).
+#
+# Fields
+#   title, authors, venue, year   required
+#   type      journal    Journal article indexed by JCR
+#             regional   Other refereed journal (mainly in Spanish)
+#             conference Peer-reviewed conference paper
+#             workshop   Workshop, shared task or other non-refereed paper
+#             abstract   Abstract / extended abstract
+#             chapter    Book chapter
+#             outreach   Science outreach (non-refereed)
+#             book       Edited book
+#   web, doi, arxiv, pdf, code   optional links (doi is the bare DOI, e.g. 10.1007/xyz)
+#   note      optional highlight, e.g. "Best paper award"
+#   selected  true for the publications listed under "Selected"
+
+# ---------------------------------------------------------------- 2026
+- title: "Abstract Compression of Conversational Audio Context for LLM-based ASR"
+  authors: "Shashi Kumar, Esaú Villatoro-Tello, Sergio Burdisso, Kadri Hacioglu, Thibault Bañeras-Roux, Hasindri Watawana, Dairazalia Sánchez-Cortés, Srikanth Madikeri, Petr Motlicek, Andreas Stolcke"
+  venue: "IEEE Spoken Language Technology Workshop (SLT 2026). Accepted"
+  year: 2026
+  type: conference
+  arxiv: https://arxiv.org/abs/2603.26246
+
+- title: "How to Leverage Synthetic Speech for LLM-Based ASR Systems?"
+  authors: "Yanis Labrak, Dairazalia Sánchez-Cortés, Sergio Burdisso, Séverin Baroudi, Shashi Kumar, Esaú Villatoro-Tello, Srikanth Madikeri, Manjunath K E, Oldřich Plchot, Kadri Hacioğlu, Petr Motlicek, Andreas Stolcke"
+  venue: "IEEE Spoken Language Technology Workshop (SLT 2026). Accepted"
+  year: 2026
+  type: conference
+  arxiv: https://arxiv.org/abs/2606.29031
+
+- title: "No Audio, No Transcripts, No Problem: LLM-based ASR Adaptation Using Only Domain Documents"
+  authors: "Sergio Burdisso, Dairazalia Sánchez-Cortés, Esaú Villatoro-Tello, Thibault Bañeras-Roux, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke"
+  venue: "IEEE Spoken Language Technology Workshop (SLT 2026). Accepted"
+  year: 2026
+  type: conference
+  pdf: https://publications.idiap.ch/attachments/papers/2026/Burdisso_SLT_2026.pdf
+
+- title: "When Synthetic Speech Is All You Have: Better Call GRPO"
+  authors: "Shashi Kumar, Yanis Labrak, Hasindri Watawana, Sergio Burdisso, Esaú Villatoro-Tello, Kadri Hacioğlu, Petr Motlicek, Andreas Stolcke"
+  venue: "IEEE Spoken Language Technology Workshop (SLT 2026). Accepted"
+  year: 2026
+  type: conference
+  arxiv: https://arxiv.org/abs/2607.08409
+
+- title: "Modelling Thematic Structure in Clinical Dialogues for Interpretable Depression Detection"
+  authors: "Esaú Villatoro-Tello, Ernesto A. Reyes-Ramírez, Sergio Burdisso, Hasindri Watawana, Petr Motlicek, Fernando Sánchez-Vega, A. Pastor López-Monroy"
+  venue: "Text, Speech, and Dialogue (TSD 2026). Lecture Notes in Computer Science, pages 580–591. Springer"
+  year: 2026
+  type: conference
+  web: https://link.springer.com/chapter/10.1007/978-3-032-37249-9_47
+
+- title: "Context Projector: Complementary Keyword and Dialogue Context Embeddings for LLM-based ASR"
+  authors: "Esaú Villatoro-Tello, Sergio Burdisso, Shashi Kumar, Hasindri Watawana, Srikanth Madikeri, Manjunath K E, Jeena Prakash, Thibault Bañeras-Roux, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke"
+  venue: "Proceedings of INTERSPEECH 2026, pages 3410–3415"
+  year: 2026
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2026/villatorotello26_interspeech.html
+
+- title: "Avoiding Catastrophic Forgetting in Text-Only Adaptation of LLM-based ASR via Multi-View Text Denoising"
+  authors: "Sergio Burdisso, Esaú Villatoro-Tello, Thibault Bañeras-Roux, Shashi Kumar, Srikanth Madikeri, Pradeep Rangappa, Manjunath K E, Petr Motlicek, Andreas Stolcke"
+  venue: "Proceedings of INTERSPEECH 2026, pages 4597–4602"
+  year: 2026
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2026/burdisso26_interspeech.html
+
+- title: "Closing the Speech-Text Gap with Limited Audio for Effective Domain Adaptation in LLM-Based ASR"
+  authors: "Thibault Bañeras-Roux, Sergio Burdisso, Esaú Villatoro-Tello, Dairazalia Sánchez-Cortés, Shiran Liu, Séverin Baroudi, Shashi Kumar, Hasindri Watawana, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke"
+  venue: "Proceedings of INTERSPEECH 2026, pages 6239–6244"
+  year: 2026
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2026/banerasroux26_interspeech.html
+  arxiv: https://arxiv.org/abs/2604.06487
+
+- title: "When Consistency Becomes Bias: Interviewer Effects in Semi-Structured Clinical Interviews"
+  authors: "Hasindri Watawana, Sergio Burdisso, Diego A. Moreno-Galván, Fernando Sánchez-Vega, A. Pastor López-Monroy, Petr Motlicek, Esaú Villatoro-Tello"
+  venue: "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026), pages 2355–2361, Palma de Mallorca, Spain"
+  year: 2026
+  type: conference
+  web: https://aclanthology.org/2026.lrec-1.185/
+  arxiv: https://arxiv.org/abs/2603.24651
+  code: https://github.com/idiap/bias_in_daic-woz/tree/main/LREC_2026
+
+- title: "Reducing Prompt Sensitivity in LLM-based Speech Recognition Through Learnable Projection"
+  authors: "Sergio Burdisso, Esaú Villatoro-Tello, Shashi Kumar, Srikanth Madikeri, Andrés Carofilis, Pradeep Rangappa, Manjunath K E, Kadri Hacioglu, Petr Motlicek, Andreas Stolcke"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2026)"
+  year: 2026
+  type: conference
+  arxiv: https://arxiv.org/abs/2601.20898
+
+- title: "SDialog: A Python Toolkit for End-to-End Agent Building, User Simulation, Dialog Generation, and Evaluation"
+  authors: "Sergio Burdisso, Séverin Baroudi, Yanis Labrak, David Grunert, Pawel Cyrta, Yiyang Chen, Srikanth Madikeri, Thomas Schaaf, Esaú Villatoro-Tello, Ahmed Hassoon, Ricard Marxer, Petr Motlicek"
+  venue: "Proceedings of the 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2026), Volume 3: System Demonstrations"
+  year: 2026
+  type: conference
+  web: https://aclanthology.org/2026.eacl-demo.23/
+  arxiv: https://arxiv.org/abs/2506.10622
+
+# ---------------------------------------------------------------- 2025
+- title: "TokenVerse++: Towards Flexible Multitask Learning with Dynamic Task Activation"
+  authors: "Shashi Kumar, Srikanth Madikeri, Esaú Villatoro-Tello, Sergio Burdisso, Pradeep Rangappa, Andrés Carofilis, Petr Motlicek, Karthik Pandia, Shankar Venkatesan, Kadri Hacioğlu, Andreas Stolcke"
+  venue: "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU 2025). December 2025"
+  year: 2025
+  type: conference
+  arxiv: https://arxiv.org/abs/2508.19856
+
+- title: "Unifying Global and Near-Context Biasing in a Single Trie Pass"
+  authors: "Iuliia Thorbecke, Esaú Villatoro-Tello, Juan Pablo Zuluaga, Shashi Kumar, Sergio Burdisso, Pradeep Rangappa, Andrés Carofilis, Srikanth Madikeri, Petr Motlicek, Karthik Pandia, Kadri Hacioğlu, Andreas Stolcke"
+  venue: "Text, Speech, and Dialogue (TSD 2025). August 2025"
+  year: 2025
+  type: conference
+  web: https://link.springer.com/chapter/10.1007/978-3-032-02548-7_15
+  arxiv: https://arxiv.org/abs/2409.13514
+
+- title: "Efficient Data Selection for Domain Adaptation of ASR Using Pseudo-Labels and Multi-Stage Filtering"
+  authors: "Pradeep Rangappa, Andres Carofilis, Jeena Prakash, Shashi Kumar, Sergio Burdisso, Srikanth Madikeri, Esaú Villatoro-Tello, Bidisha Sharma, Petr Motlicek, Kadri Hacioglu, Shankar Venkatesan, Saurabh Vyas, Andreas Stolcke"
+  venue: "Proceedings of INTERSPEECH 2025. August 2025"
+  year: 2025
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2025/rangappa25_interspeech.html
+  arxiv: https://arxiv.org/abs/2506.03681
+
+- title: "Better Semi-supervised Learning for Multi-domain ASR Through Incremental Retraining and Data Filtering"
+  authors: "Andres Carofilis, Pradeep Rangappa, Srikanth Madikeri, Shashi Kumar, Sergio Burdisso, Jeena Prakash, Esaú Villatoro-Tello, Petr Motlicek, Bidisha Sharma, Kadri Hacioglu, Shankar Venkatesan, Saurabh Vyas, Andreas Stolcke"
+  venue: "Proceedings of INTERSPEECH 2025. August 2025"
+  year: 2025
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2025/carofilis25_interspeech.html
+  arxiv: https://arxiv.org/abs/2506.04981
+
+- title: "The Greatest Challenge For Startups: Computational Text Analysis on Swiss Ventures"
+  authors: "Takahiro Inada, Esaú Villatoro-Tello, Jung Eung Park, Jim Pulcrano, Benoit F. Leleux"
+  venue: "Academy of Management Proceedings 2025. June 2025"
+  year: 2025
+  type: abstract
+  web: https://journals.aom.org/doi/abs/10.5465/AMPROC.2025.17544poster
+
+- title: "Performance Evaluation of SLAM-ASR: The Good, the Bad, the Ugly, and the Way Forward"
+  authors: "Shashi Kumar, Iuliia Thorbecke, Sergio Burdisso, Esaú Villatoro-Tello, Manjunath K E, Kadri Hacioğlu, Pradeep Rangappa, Petr Motlicek, Aravind Ganapathiraju, Andreas Stolcke"
+  venue: "ICASSP 2025 Satellite Workshop SALMA: Speech and Audio Language Models - Architectures, Data Sources, and Training Paradigms. April 2025"
+  year: 2025
+  type: conference
+  web: https://ieeexplore.ieee.org/abstract/document/11010998
+  arxiv: https://arxiv.org/abs/2411.03866
+  note: "Best paper award"
+  selected: true
+
+- title: "XLSR-Transducer: Streaming ASR for Self-Supervised Pretrained Models"
+  authors: "Shashi Kumar, Srikanth Madikeri, Juan Pablo Zuluaga Gomez, Esaú Villatoro-Tello, Iuliia Thorbecke, Petr Motlicek, Manjunath K E, Aravind Ganapathiraju"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025). April 2025"
+  year: 2025
+  type: conference
+  web: https://ieeexplore.ieee.org/document/10888110
+  arxiv: https://arxiv.org/abs/2407.04439
+
+- title: "Speech Data Selection for Efficient ASR Fine-Tuning using Domain Classifier and Pseudo-Label Filtering"
+  authors: "Pradeep Rangappa, Juan Pablo Zuluaga Gomez, Srikanth Madikeri, Andrés Carofilis, Jeena Prakash, Sergio Burdisso, Shashi Kumar, Esaú Villatoro-Tello, Iuliia Thorbecke, Petr Motlicek, Karthik Pandia Durai, Aravind Ganapathiraju"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2025). April 2025"
+  year: 2025
+  type: conference
+  web: https://ieeexplore.ieee.org/document/10888138
+
+# ---------------------------------------------------------------- 2024
+- title: "TokenVerse: Unifying Speech and NLP Tasks via Transducer-based ASR"
+  authors: "Shashi Kumar, Srikanth Madikeri, Juan Zuluaga-Gomez, Iuliia Nigmatulina, Esaú Villatoro-Tello, Sergio Burdisso, Petr Motlicek, Karthik Pandia, Aravind Ganapathiraju"
+  venue: "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP 2024), pages 20988–20995, Miami, Florida, USA"
+  year: 2024
+  type: conference
+  web: https://aclanthology.org/2024.emnlp-main.1167/
+
+- title: "Fast Streaming Transducer ASR Prototyping via Knowledge Distillation with Whisper"
+  authors: "Iuliia Thorbecke, Juan Zuluaga-Gomez, Esaú Villatoro-Tello, Shashi Kumar, Pradeep Rangappa, Sergio Burdisso, Petr Motlicek, Karthik Pandia, Aravind Ganapathiraju"
+  venue: "Findings of the Association for Computational Linguistics: EMNLP 2024, pages 16747–16762, Miami, Florida, USA"
+  year: 2024
+  type: conference
+  web: https://aclanthology.org/2024.findings-emnlp.976/
+
+- title: "Mapping the Media Landscape: Predicting Factual Reporting and Political Bias Through Web Interactions"
+  authors: "Dairazalia Sánchez-Cortés, Sergio Burdisso, Esaú Villatoro-Tello, Petr Motlicek"
+  venue: "Experimental IR Meets Multilinguality, Multimodality, and Interaction (CLEF 2024). Lecture Notes in Computer Science, vol. 14958. Springer"
+  year: 2024
+  type: conference
+  doi: 10.1007/978-3-031-71736-9_7
+
+- title: "Temporal fine-tuning for early risk detection"
+  authors: "Horacio Thompson, Esaú Villatoro-Tello, Manuel Montes-y-Gómez, Marcelo Errecalde"
+  venue: "Memorias de las JAIIO, 10(1), 137–149"
+  year: 2024
+  type: conference
+  web: https://publicaciones.sadio.org.ar/index.php/JAIIO/article/view/1020
+
+- title: "DAIC-WOZ: On the Validity of Using the Therapist's Prompts in Automatic Depression Detection from Clinical Interviews"
+  authors: "Sergio Burdisso, Ernesto A. Reyes-Ramírez, Esaú Villatoro-Tello, Fernando Sánchez-Vega, Adrian P. López-Monroy, Petr Motlicek"
+  venue: "Proceedings of the 6th Clinical Natural Language Processing Workshop @ NAACL 2024. June 2024"
+  year: 2024
+  type: conference
+  web: https://aclanthology.org/2024.clinicalnlp-1.8/
+  arxiv: https://arxiv.org/abs/2404.14463
+
+- title: "Reliability Estimation of News Media Sources: Birds of a Feather Flock Together"
+  authors: "Sergio Burdisso, Dairazalia Sánchez-Cortés, Esaú Villatoro-Tello, Petr Motlicek"
+  venue: "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL 2024). June 2024"
+  year: 2024
+  type: conference
+  web: https://aclanthology.org/2024.naacl-long.383/
+  arxiv: https://arxiv.org/abs/2404.09565
+
+- title: "Natural Language Understanding for Navigation of Service Robots in Low-Resource Domains and Languages: Scenarios in Spanish and Nahuatl"
+  authors: "Amadeo Hernández, Rosa M. Ortega-Mendoza, Esaú Villatoro-Tello, César J. Camacho-Bello, Obed Pérez-Cortés"
+  venue: "Mathematics, 12(8):1136. April 2024"
+  year: 2024
+  type: journal
+  doi: 10.3390/math12081136
+
+- title: "Probability-Aware Word-Confusion-Network-To-Text Alignment Approach for Intent Classification"
+  authors: "Esaú Villatoro-Tello, Srikanth Madikeri, Bidisha Sharma, Driss Khalil, Shashi Kumar, Iuliia Nigmatulina, Petr Motlicek, Aravind Ganapathiraju"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024). April 2024"
+  year: 2024
+  type: conference
+  web: https://ieeexplore.ieee.org/document/10445934
+
+- title: "Multitask Speech Recognition and Speaker Change Detection for Unknown Number of Speakers"
+  authors: "Shashi Kumar, Srikanth Madikeri, Iuliia Nigmatulina, Esaú Villatoro-Tello, Petr Motlicek, Karthik Pandia, S. Pavankumar Dubagunta, Aravind Ganapathiraju"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2024). April 2024"
+  year: 2024
+  type: conference
+  web: https://ieeexplore.ieee.org/document/10446130
+
+# ---------------------------------------------------------------- 2023
+- title: "Enhancing Multi-modal Classification of Violent Events using Image Captioning"
+  authors: "Daniel Vallejo-Aldana, Adrián Pastor López-Monroy, Esaú Villatoro-Tello"
+  venue: "Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2023). September 2023"
+  year: 2023
+  type: workshop
+  note: "1st place, DA-VINCIS 2023"
+
+- title: "Node-weighted Graph Convolutional Network for Depression Detection in Transcribed Clinical Interviews"
+  authors: "Sergio Burdisso, Esaú Villatoro-Tello, Srikanth Madikeri, Petr Motlicek"
+  venue: "Proceedings of INTERSPEECH 2023. August 2023"
+  year: 2023
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2023/burdisso23_interspeech.html
+
+- title: "Implementing Contextual Biasing in GPU Decoder for Online ASR"
+  authors: "Iuliia Nigmatulina, Srikanth Madikeri, Esaú Villatoro-Tello, Petr Motlicek, Juan Zuluaga-Gomez, S Karthik Pandia D, Aravind Ganapathiraju"
+  venue: "Proceedings of INTERSPEECH 2023. August 2023"
+  year: 2023
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2023/nigmatulina23_interspeech.html
+
+- title: "Intelligent Technologies: Concepts, Applications, and Future Directions, Volume 2"
+  authors: "Satya Ranjan Dash, Himansu Das, Kuan-Ching Li, Esaú Villatoro-Tello (Eds.)"
+  venue: "Springer Singapore. June 2023"
+  year: 2023
+  type: book
+  doi: 10.1007/978-981-99-1482-1
+
+- title: "Effectiveness of Text, Acoustic, and Lattice-based Representations in Spoken Language Understanding Tasks"
+  authors: "Esaú Villatoro-Tello, Srikanth Madikeri, Juan Zuluaga-Gomez, Bidisha Sharma, Seyyed Saeed Sarfjoo, Iuliia Nigmatulina, Petr Motlicek, Alexei V. Ivanov, Aravind Ganapathiraju"
+  venue: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2023). May 2023"
+  year: 2023
+  type: conference
+  web: https://ieeexplore.ieee.org/document/10095168
+
+- title: "A lexical-availability-based framework from short communications for automatic personality identification"
+  authors: "Gabriela Ramírez-de-la-Rosa, Héctor Jiménez-Salazar, Esaú Villatoro-Tello, Verónica Reyes-Meza, Jaime Rojas-Avila"
+  venue: "Cognitive Systems Research, vol. 79. January 2023"
+  year: 2023
+  type: journal
+  doi: 10.1016/j.cogsys.2023.01.006
+
+# ---------------------------------------------------------------- 2022
+- title: "IDIAPers @ Causal News Corpus 2022: Extracting Cause-Effect-Signal Triplets via Pre-trained Autoregressive Language Model"
+  authors: "Martin Fajcik, Muskaan Singh, Juan Zuluaga-Gomez, Esaú Villatoro-Tello, Sergio Burdisso, Petr Motlicek, Pavel Smrz"
+  venue: "Proceedings of the 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE @ EMNLP 2022). December 2022"
+  year: 2022
+  type: conference
+  web: https://aclanthology.org/2022.case-1.10/
+
+- title: "IDIAPers @ Causal News Corpus 2022: Efficient Causal Relation Identification Through a Prompt-based Few-shot Approach"
+  authors: "Sergio Burdisso, Juan Zuluaga-Gomez, Esaú Villatoro-Tello, Martin Fajcik, Muskaan Singh, Pavel Smrz, Petr Motlicek"
+  venue: "Proceedings of the 5th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE @ EMNLP 2022). December 2022"
+  year: 2022
+  type: conference
+  web: https://aclanthology.org/2022.case-1.9/
+
+- title: "Leveraging Events Sub-Categories for Violent-Events Detection in Social Media"
+  authors: "Daniel Vallejo-Aldana, Adrián Pastor López-Monroy, Esaú Villatoro-Tello"
+  venue: "Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022). September 2022"
+  year: 2022
+  type: workshop
+  pdf: https://ceur-ws.org/Vol-3202/davincis-paper3.pdf
+
+- title: "The Winning Approach for the Recommendation Systems Shared Task @REST-MEX 2022"
+  authors: "Cipriano Callejas-Hernández, Erika Rivadeneira-Pérez, Fernando Sánchez-Vega, Adrián Pastor López-Monroy, Esaú Villatoro-Tello"
+  venue: "Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2022). September 2022"
+  year: 2022
+  type: workshop
+  pdf: https://ceur-ws.org/Vol-3202/restmex-paper1.pdf
+  note: "1st place, Rest-Mex 2022"
+
+- title: "Natural Language Processing in Healthcare: A Special Focus on Low Resource Languages"
+  authors: "Satya Ranjan Dash, Shantipriya Parida, Esaú Villatoro-Tello, Biswaranjan Acharya, Ondřej Bojar (Eds.)"
+  venue: "CRC Press. July 2022"
+  year: 2022
+  type: book
+  doi: 10.1201/9781003138013
+
+- title: "Expanded Lattice Embeddings for Spoken Document Retrieval on Informal Meetings"
+  authors: "Esaú Villatoro-Tello, Srikanth Madikeri, Petr Motlicek, Aravind Ganapathiraju, Alexei V. Ivanov"
+  venue: "Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2022). July 2022"
+  year: 2022
+  type: conference
+  doi: 10.1145/3477495.3531921
+
+- title: "Classifying the Social Media Author Profile Through a Multimodal Representation"
+  authors: "M. Angel Álvarez-Carmona, Esaú Villatoro-Tello, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez"
+  venue: "In: Intelligent Technologies: Concepts, Applications, and Future Directions. Studies in Computational Intelligence, vol. 1028. Springer. May 2022"
+  year: 2022
+  type: chapter
+  doi: 10.1007/978-981-19-1021-0_3
+
+- title: "Intelligent Technologies: Concepts, Applications, and Future Directions, Volume 1"
+  authors: "Satya Ranjan Dash, Manas Ranjan Lenka, Kuan-Ching Li, Esaú Villatoro-Tello (Eds.)"
+  venue: "Springer Singapore. May 2022"
+  year: 2022
+  type: book
+  doi: 10.1007/978-981-19-1021-0
+
+# ---------------------------------------------------------------- 2021
+- title: "BertOdia: BERT Pre-training for Low Resource Odia Language"
+  authors: "Shantipriya Parida, Satya Prakash Biswal, Biranchi Narayan Nayak, Maël Fabien, Esaú Villatoro-Tello, Petr Motlicek"
+  venue: "Proceedings of Biologically Inspired Techniques in Many-Criteria Decision Making (BITMDM 2021). December 2021"
+  year: 2021
+  type: conference
+  doi: 10.1007/978-981-16-8739-6_32
+
+- title: "Automatic Dialect Detection for Low Resource Santali Language"
+  authors: "Sunil Kumar Sahoo, Brojo Kishore Mishra, Shantipriya Parida, Satya Ranjan Dash, Jatindra Nath Besra, Esaú Villatoro-Tello"
+  venue: "Proceedings of the International Conference on Information Technology (OCIT 2021). December 2021"
+  year: 2021
+  type: conference
+  web: https://ieeexplore.ieee.org/document/9719574
+
+- title: "Traducción Automática de Comandos en Náhuatl para Controlar los Movimientos de un Robot Móvil"
+  authors: "Amadeo Hernández-Hernández, Rosa M. Ortega-Mendoza, Esaú Villatoro-Tello, César J. Camacho-Bello, Gabriela Ramírez-de-la-Rosa"
+  venue: "Segundo Congreso Internacional de Procesamiento de Lenguaje Natural para las Lenguas Indígenas, Morelia, Michoacán (online). November 2021"
+  year: 2021
+  type: workshop
+
+- title: "Approximating the Mental Lexicon from Clinical Interviews as a Support Tool for Depression Detection"
+  authors: "Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Daniel Gatica-Perez, Mathew Magimai.-Doss, Héctor Jiménez-Salazar"
+  venue: "Proceedings of the 23rd ACM International Conference on Multimodal Interaction (ICMI 2021), Montreal, Canada. October 2021"
+  year: 2021
+  type: conference
+  doi: 10.1145/3462244.3479896
+  pdf: https://publidiap.idiap.ch/attachments/papers/2021/VILLATORO-TELLO_ICMI2021-2_2021.pdf
+  selected: true
+
+- title: "Late Fusion of the Available Lexicon and Raw Waveform-based Acoustic Modeling for Depression and Dementia Recognition"
+  authors: "Esaú Villatoro-Tello, S. Pavankumar Dubagunta, Julian Fritsch, Gabriela Ramírez-de-la-Rosa, Petr Motlicek, Mathew Magimai.-Doss"
+  venue: "Proceedings of INTERSPEECH 2021, Brno, Czechia. September 2021"
+  year: 2021
+  type: conference
+  web: https://www.isca-archive.org/interspeech_2021/villatorotello21_interspeech.html
+  selected: true
+
+- title: "Applying Attention-Based Models for Detecting Cognitive Processes and Mental Health Conditions"
+  authors: "Esaú Villatoro-Tello, Shantipriya Parida, Sajit Kumar, Petr Motlicek"
+  venue: "Cognitive Computation, Springer. July 2021"
+  year: 2021
+  type: journal
+  doi: 10.1007/s12559-021-09901-1
+
+- title: "Open Machine Translation for Low Resource South American Languages (AmericasNLP 2021 Shared Task Contribution)"
+  authors: "Shantipriya Parida, Subhadarshi Panda, Amulya Dash, Esaú Villatoro-Tello, A. Seza Doğruöz, Rosa M. Ortega-Mendoza, Amadeo Hernández, Yashvardhan Sharma, Petr Motlicek"
+  venue: "Proceedings of the First Workshop on Natural Language Processing for Indigenous Languages of the Americas (AmericasNLP) at NAACL 2021, pages 218–223, Mexico City. June 2021"
+  year: 2021
+  type: conference
+  web: https://aclanthology.org/2021.americasnlp-1.24/
+  note: "2nd place, AmericasNLP 2021"
+
+- title: "Análisis de representaciones vectoriales en bitácoras de mantenimiento en la industria: Hacia un sistema de Recuperación de Información"
+  authors: "Jesús Roberto Enrique León Carmona, Samuel González-López, Esaú Villatoro-Tello, Jesús Miguel García-Gorrostieta"
+  venue: "Research in Computing Science, 150(5), pages 231–239. May 2021"
+  year: 2021
+  type: regional
+  pdf: "https://www.rcs.cic.ipn.mx/2021_150_5/Analisis%20de%20representaciones%20vectoriales%20en%20bitacoras%20de%20mantenimiento%20en%20la%20Industria_.pdf"
+
+- title: "Análisis y seguimiento de tópicos en las conferencias matutinas del presidente de México"
+  authors: "Luis Armando Arías Romero, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "Research in Computing Science, 150(5), pages 331–345. May 2021"
+  year: 2021
+  type: regional
+  pdf: "https://www.rcs.cic.ipn.mx/2021_150_5/Analisis%20y%20seguimiento%20de%20topicos%20en%20las%20conferencias%20matutinas%20del%20presidente%20de%20Mexico.pdf"
+
+# ---------------------------------------------------------------- 2020
+- title: "BertAA: BERT fine-tuning for Authorship Attribution"
+  authors: "Maël Fabien, Esaú Villatoro-Tello, Petr Motlicek, Shantipriya Parida"
+  venue: "Proceedings of the 17th International Conference on Natural Language Processing (ICON 2020), pages 127–137, India. December 2020"
+  year: 2020
+  type: conference
+  web: https://aclanthology.org/2020.icon-main.16/
+  selected: true
+
+- title: "Detection of Similar Languages and Dialects Using Deep Supervised Autoencoders"
+  authors: "Shantipriya Parida, Esaú Villatoro-Tello, Sajit Kumar, Maël Fabien, Petr Motlicek"
+  venue: "Proceedings of the 17th International Conference on Natural Language Processing (ICON 2020), pages 362–367, India. December 2020"
+  year: 2020
+  type: conference
+  web: https://aclanthology.org/2020.icon-main.49/
+
+- title: "Inferring Highly-dense Representations for Clustering Broadcast Media Content"
+  authors: "Esaú Villatoro-Tello, Shantipriya Parida, Petr Motlicek, Ondřej Bojar"
+  venue: "The Prague Bulletin of Mathematical Linguistics (PBML), vol. 115, pages 31–50. October 2020"
+  year: 2020
+  type: regional
+  pdf: https://ufal.mff.cuni.cz/pbml/115/art-villatoro-tello-et-al.pdf
+
+- title: "Idiap and UAM Participation at MEX-A3T Evaluation Campaign"
+  authors: "Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Sajit Kumar, Shantipriya Parida, Petr Motlicek"
+  venue: "Proceedings of the Iberian Languages Evaluation Forum (IberLEF 2020), CEUR vol. 2664, pages 252–257, Malaga, Spain. September 2020"
+  year: 2020
+  type: workshop
+  pdf: http://ceur-ws.org/Vol-2664/mexa3t_paper3.pdf
+  note: "1st place, MEX-A3T 2020 fake news detection"
+
+- title: "Idiap & UAM participation at GermEval 2020: Classification and Regression of Cognitive and Motivational Style from Text"
+  authors: "Esaú Villatoro-Tello, Shantipriya Parida, Sajit Kumar, Petr Motlicek, Qingran Zhan"
+  venue: "Proceedings of the 5th Swiss Text Analytics Conference (SwissText) & 16th Conference on Natural Language Processing (KONVENS), Zurich, Switzerland. June 2020"
+  year: 2020
+  type: workshop
+  pdf: https://www.inf.uni-hamburg.de/en/inst/ab/lt/resources/data/germeval-2020-cognitive-motive/ge20st1-paper-2.pdf
+  note: "2nd place, GermEval 2020 Task 1"
+
+- title: "Idiap Submission to Swiss-German Language Detection Shared Task"
+  authors: "Shantipriya Parida, Esaú Villatoro-Tello, Sajit Kumar, Petr Motlicek, Qingran Zhan"
+  venue: "Proceedings of the 5th Swiss Text Analytics Conference (SwissText) & 16th Conference on Natural Language Processing (KONVENS), Zurich, Switzerland. June 2020"
+  year: 2020
+  type: workshop
+  pdf: http://ceur-ws.org/Vol-2624/germeval-task2-paper4.pdf
+  note: "3rd place, Swiss German Language Detection"
+
+- title: "Predicting consumer engagement on Facebook based on what and how companies write"
+  authors: "Érika S. Rosas-Quezada, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "Journal of Intelligent & Fuzzy Systems (JIFS), 39(2), pages 2365–2377. June 2020"
+  year: 2020
+  type: journal
+  doi: 10.3233/JIFS-179897
+
+- title: "Author Profiling in Social Media with Multimodal Information"
+  authors: "Miguel Á. Álvarez-Carmona, Esaú Villatoro-Tello, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Computación y Sistemas (CyS), 24(3), pages 1289–1304. April 2020"
+  year: 2020
+  type: regional
+  doi: 10.13053/cys-24-3-3488
+
+# ---------------------------------------------------------------- 2019
+- title: "Finding Evidence of the Sexual Predators Behavior"
+  authors: "Ángeles López-Flores, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa"
+  venue: "LatinX in AI Research at NeurIPS 2019 (LXAI 2019), Vancouver, Canada. December 2019"
+  year: 2019
+  type: abstract
+
+- title: "Mental lexicon for personality identification in texts"
+  authors: "Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello, Héctor Jiménez-Salazar"
+  venue: "LatinX in AI Research at NeurIPS 2019 (LXAI 2019), Vancouver, Canada. December 2019"
+  year: 2019
+  type: abstract
+
+- title: "Corpus Reacción: consumers engagement in Facebook posts"
+  authors: "Érika S. Rosas-Quezada, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "Proceedings of the Latin American and Iberian Languages Open Corpora Forum (OpenCor 2019), Guanajuato, Mexico. September 2019"
+  year: 2019
+  type: abstract
+
+- title: "Attribute Selection Techniques for Classification of Aggressive Tweets. LyR-UAMC participation at MexA3T 2019 Task"
+  authors: "Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello, Héctor Jiménez-Salazar"
+  venue: "Working Notes of the Iberian Languages Evaluation Forum (IberLEF 2019), CEUR vol. 2421, pages 515–519. September 2019"
+  year: 2019
+  type: workshop
+  pdf: http://ceur-ws.org/Vol-2421/MEX-A3T_paper_4.pdf
+
+- title: "A Comparative Analysis of Distributional Term Representations for Author Profiling in Social Media"
+  authors: "Miguel Á. Álvarez-Carmona, Esaú Villatoro-Tello, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Journal of Intelligent & Fuzzy Systems (JIFS), 36(5), pages 4857–4868. May 2019"
+  year: 2019
+  type: journal
+  doi: 10.3233/JIFS-179033
+
+- title: "Identificación de Rasgos de Personalidad a través del lenguaje escrito"
+  authors: "Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "In: Panorama de las Tecnologías del Lenguaje en México, 2nd edition, pages 41–73. Academia Mexicana de Computación - CONACyT, Mexico"
+  year: 2019
+  type: outreach
+
+- title: "MADIC. A cinco años de su creación: pasado, presente y futuro"
+  authors: "Gloria Angélica Martínez De la Peña, Esaú Villatoro-Tello (Eds.)"
+  venue: "UAM, Unidad Cuajimalpa, División de Ciencias de la Comunicación y Diseño, Mexico"
+  year: 2019
+  type: book
+
+# ---------------------------------------------------------------- 2018
+- title: "HWxPI: A Multimodal Spanish Corpus for Personality Identification"
+  authors: "Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello, Héctor Jiménez-Salazar"
+  venue: "Proceedings of the Latin American and Iberian Languages Open Corpora Forum (OpenCor 2018), Canela, Brazil. September 2018"
+  year: 2018
+  type: abstract
+
+- title: "Overview of the Multimedia Information Processing for Personality & Social Networks Analysis Contest"
+  authors: "Gabriela Ramírez, Esaú Villatoro, Bogdan Ionescu, Hugo Jair Escalante, Sergio Escalera, Martha Larson, Henning Müller, Isabelle Guyon"
+  venue: "Pattern Recognition and Information Forensics (ICPR 2018). Lecture Notes in Computer Science, vol. 11188, pages 127–139, Beijing, China. August 2018"
+  year: 2018
+  type: conference
+  doi: 10.1007/978-3-030-05792-3_12
+
+- title: "Identificando signos de anorexia y depresión en usuarios de redes sociales"
+  authors: "Alejandro Rosales-Martínez, Pablo Sotres, Griselda Velázquez-Villar, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa"
+  venue: "Research in Computing Science, 147(7), pages 189–202. June 2018"
+  year: 2018
+  type: regional
+  doi: 10.13053/rcs-147-7-15
+
+- title: "Sistema para la generación personalizada de resúmenes a partir de múltiples documentos"
+  authors: "Orlando Hernández-Hernández, Esaú Villatoro-Tello, Christian Lemaître León"
+  venue: "Research in Computing Science, 147(6), pages 85–98. June 2018"
+  year: 2018
+  type: regional
+  doi: 10.13053/rcs-147-6-6
+
+- title: "Predicción de la generación de residuos sólidos urbanos en la Ciudad de México"
+  authors: "Ester Calderón-Casanova, Mariana López, Patricia Galán, Esaú Villatoro-Tello, Raúl R. García-Aguilar, Brenda García-Parra"
+  venue: "Research in Computing Science, 147(5), pages 65–77. June 2018"
+  year: 2018
+  type: regional
+  doi: 10.13053/rcs-147-5-5
+
+- title: "Un método para el análisis de sentimientos bajo un enfoque supervisado usando recursos léxicos"
+  authors: "Antonio Hernández-Ambrocio, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "Research in Computing Science, 147(6), pages 221–233. June 2018"
+  year: 2018
+  type: regional
+  doi: 10.13053/rcs-147-6-17
+
+- title: "A visual approach for age and gender identification on Twitter"
+  authors: "Luis Pellegrin, Miguel A. Álvarez-Carmona, Manuel Montes-y-Gómez, Fernando Sánchez-Vega, Hugo Jair Escalante, A. Pastor López-Monroy, Luis Villaseñor-Pineda, Esaú Villatoro-Tello"
+  venue: "Journal of Intelligent & Fuzzy Systems (JIFS), 34(5), pages 3133–3145. May 2018"
+  year: 2018
+  type: journal
+  doi: 10.3233/JIFS-169497
+
+- title: "TxPI-u: A Resource for Personality Identification of Undergraduates"
+  authors: "Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello, Héctor Jiménez-Salazar"
+  venue: "Journal of Intelligent & Fuzzy Systems (JIFS), 34(5), pages 2991–3001. May 2018"
+  year: 2018
+  type: journal
+  doi: 10.3233/JIFS-169484
+
+- title: "Semantically-informed distance and similarity measures for paraphrase plagiarism identification"
+  authors: "Miguel Ángel Álvarez-Carmona, Marc Franco-Salvador, Manuel Montes-y-Gómez, Paolo Rosso, Luis Villaseñor-Pineda, Esaú Villatoro-Tello"
+  venue: "Journal of Intelligent & Fuzzy Systems (JIFS), 34(5), pages 2983–2990"
+  year: 2018
+  type: journal
+  doi: 10.3233/JIFS-169483
+
+# ---------------------------------------------------------------- 2017
+- title: "Paraphrase Plagiarism Identification with Character-level Features"
+  authors: "Fernando Sánchez-Vega, Esaú Villatoro-Tello, Manuel Montes-y-Gómez, Paolo Rosso, Efstathios Stamatatos, Luis Villaseñor-Pineda"
+  venue: "Pattern Analysis and Applications (PAA). December 2017"
+  year: 2017
+  type: journal
+  doi: 10.1007/s10044-017-0674-z
+
+- title: "WSDL Information Selection for Improving Web Service Classification"
+  authors: "Christian Sánchez-Sánchez, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Héctor Jiménez-Salazar, David Pinto-Avendaño"
+  venue: "Research in Computing Science, vol. 144, pages 83–96. November 2017"
+  year: 2017
+  type: regional
+  doi: 10.13053/rcs-144-1-7
+
+- title: "Retrieving and Classifying Instances of Source Code Plagiarism"
+  authors: "Debasis Ganguly, Gareth J. F. Jones, Aarón Ramírez-de-la-Cruz, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "Information Retrieval Journal, 21(1), pages 1–23. September 2017"
+  year: 2017
+  type: journal
+  doi: 10.1007/s10791-017-9313-y
+
+- title: "UAM's participation at CLEF eRisk 2017 task: Towards modelling depressed bloggers"
+  authors: "Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Héctor Jiménez-Salazar"
+  venue: "Working Notes of CLEF 2017 - Conference and Labs of the Evaluation Forum, CEUR vol. 1866, Dublin, Ireland. September 2017"
+  year: 2017
+  type: workshop
+
+- title: "A Compact Representation for Cross-Domain Short Text Clustering"
+  authors: "Alba Núñez-Reyes, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Christian Sánchez-Sánchez"
+  venue: "Advances in Artificial Intelligence. Lecture Notes in Computer Science, vol. 10061, pages 16–26. August 2017"
+  year: 2017
+  type: conference
+  doi: 10.1007/978-3-319-62434-1_2
+
+- title: "Resúmenes de múltiples documentos guiados por consulta empleando representaciones distribucionales"
+  authors: "Leticia Luna-Tlatelpa, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Carlos Rivero-Moreno"
+  venue: "Research in Computing Science, vol. 134, pages 127–139. May 2017"
+  year: 2017
+  type: regional
+  doi: 10.13053/rcs-134-1-10
+
+- title: "Generación y enriquecimiento automático de recursos léxicos para el análisis de sentimientos"
+  authors: "Gerardo Real-Flores, Betzabet García-Mendoza, Ester Calderón-Casanova, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "Research in Computing Science, vol. 134, pages 163–176. May 2017"
+  year: 2017
+  type: regional
+  doi: 10.13053/rcs-134-1-13
+
+- title: "Early Detection of Deception and Aggressiveness using Profile-Based Representations"
+  authors: "Hugo Jair Escalante, Esaú Villatoro-Tello, Sara E. Garza, A. Pastor López-Monroy, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Expert Systems with Applications, vol. 89, pages 99–111"
+  year: 2017
+  type: journal
+  doi: 10.1016/j.eswa.2017.07.040
+
+- title: "Lingüística Computacional"
+  authors: "Luis Villaseñor-Pineda, Noé Alejandro Castro-Sánchez, Alexander Gelbukh, Yasmín Hernández-Pérez, Héctor Jiménez-Salazar, Manuel Montes-y-Gómez, David Pinto-Avendaño, Fernando Sánchez, Grigori Sidorov, Gerardo Sierra-Martínez, Esaú Villatoro-Tello"
+  venue: "In: La Computación en México por especialidades académicas, Luis Alberto Pineda Cortés (Ed.)"
+  year: 2017
+  type: outreach
+
+# ---------------------------------------------------------------- 2016
+- title: "Enhancing Semi-Supervised Text Classification using Document Summaries"
+  authors: "Esaú Villatoro-Tello, Emmanuel Anguiano, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda, Gabriela Ramírez-de-la-Rosa"
+  venue: "Proceedings of the 15th Ibero-American Conference on AI (IBERAMIA 2016). Lecture Notes in Computer Science, vol. 10022, pages 115–126. November 2016"
+  year: 2016
+  type: conference
+  doi: 10.1007/978-3-319-47955-2_10
+
+- title: "From dialogue corpora to dialogue systems: Generating a chatbot with teenager personality for preventing cyber-pedophilia"
+  authors: "Ángel Callejas-Rodríguez, Esaú Villatoro-Tello, Ivan Meza, Gabriela Ramírez-de-la-Rosa"
+  venue: "Text, Speech, and Dialogue (TSD 2016). Lecture Notes in Artificial Intelligence, vol. 9924, pages 531–539. September 2016"
+  year: 2016
+  type: conference
+  doi: 10.1007/978-3-319-45510-5_61
+
+- title: "Profile-based Approach for Age and Gender Identification. Notebook for PAN at CLEF 2016"
+  authors: "Ma. José Garciarena Ucelay, Ma. Paula Villegas, Dario G. Funez, Leticia C. Cagnina, Marcelo L. Errecalde, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello"
+  venue: "Working Notes of CLEF 2016 - Conference and Labs of the Evaluation Forum, CEUR vol. 1609, pages 864–873, Évora, Portugal. September 2016"
+  year: 2016
+  type: workshop
+
+- title: "Importancia del lenguaje coloquial y de los símbolos de puntuación en el perfilado de autores"
+  authors: "Diana M. Sepúlveda-Barrera, Daniel Martínez-Espino, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa"
+  venue: "Research in Computing Science, vol. 115, pages 43–56. May 2016"
+  year: 2016
+  type: regional
+  doi: 10.13053/rcs-115-1-4
+
+- title: "Aplicación web para identificar personalidad, género y edad de usuarios en Twitter"
+  authors: "Janet V. Hernández-García, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello, Héctor Jiménez-Salazar, Verónica Reyes-Meza"
+  venue: "Research in Computing Science, vol. 115, pages 93–106. May 2016"
+  year: 2016
+  type: regional
+  doi: 10.13053/rcs-115-1-8
+
+- title: "Agrupamiento de textos cortos en dominios cruzados"
+  authors: "Alba Núñez-Reyes, Erick Monroy-Cuevas, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Christian Sánchez-Sánchez"
+  venue: "Research in Computing Science, vol. 115, pages 133–145. May 2016"
+  year: 2016
+  type: regional
+  doi: 10.13053/rcs-115-1-11
+
+- title: "Exploración sobre la construcción automática de un tesauro a partir de un documento"
+  authors: "Aarón Ramírez-de-la-Cruz, Héctor Jiménez-Salazar, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa"
+  venue: "Research in Computing Science, vol. 115, pages 107–116. May 2016"
+  year: 2016
+  type: regional
+  doi: 10.13053/rcs-115-1-9
+
+# ---------------------------------------------------------------- 2015
+- title: "On the Detection of SOurce COde Re-use"
+  authors: "Enrique Flores, Paolo Rosso, Lidia Moreno, Esaú Villatoro-Tello"
+  venue: "Proceedings of the Forum for Information Retrieval Evaluation (FIRE 2014), pages 21–30. ACM Digital Library. December 2015"
+  year: 2015
+  type: conference
+  doi: 10.1145/2824864.2824878
+
+- title: "PAN@FIRE 2015: Overview of CL-SOCO Track on the Detection of Cross-Language SOurce COde Re-use"
+  authors: "Enrique Flores, Paolo Rosso, Lidia Moreno, Esaú Villatoro-Tello, Rosa Alcover, Vicente Chirivella"
+  venue: "Proceedings of the Seventh Forum for Information Retrieval Evaluation (FIRE 2015), CEUR vol. 1587, Gandhinagar, India. December 2015"
+  year: 2015
+  type: workshop
+
+- title: "Cultura Algorítmica y Tecnologías del Lenguaje Humano"
+  authors: "Jesús Octavio Elizondo-Martínez, Esaú Villatoro-Tello"
+  venue: "In: Cultura Visual y Sistemas de Significación. Dando sentido a los algoritmos, los medios y la creatividad en el espacio de la comunicación, pages 15–28. UAM, Unidad Cuajimalpa, Mexico. November 2015"
+  year: 2015
+  type: outreach
+
+- title: "Diseño e implementación de Applets como material didáctico de apoyo para cursos de estructuras de datos"
+  authors: "Betzabet García-Mendoza, Pablo A. Ruíz-Mendoza, Gerardo Real-Flores, Carlos R. Jaimez-González, Esaú Villatoro-Tello"
+  venue: "Pistas Educativas, vol. 112, pages 533–553. November 2015"
+  year: 2015
+  type: regional
+
+- title: "Plataforma web para la identificación y el análisis de eventos en Twitter"
+  authors: "Antonio Juárez-González, Griselda Velázquez-Villar, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa"
+  venue: "Research in Computing Science, vol. 97, pages 69–78. October 2015"
+  year: 2015
+  type: regional
+  doi: 10.13053/rcs-97-1-6
+
+- title: "Sistema Automático para la Clasificación de la Opinión Pública Generada en Twitter"
+  authors: "José Ramón Gálvez-Pérez, Bárbara Gómez-Torrero, Raúl Ramírez-Chávez, Kathia Sánchez-Sandoval, Vicente Castellanos-Cerda, Roberto García-Madrid, Héctor Jiménez-Salazar, Esaú Villatoro-Tello"
+  venue: "Research in Computing Science, vol. 95, pages 23–36. May 2015"
+  year: 2015
+  type: regional
+  doi: 10.13053/rcs-95-1-2
+
+- title: "Sistema Multiagente Integrador de Bibliotecas Digitales"
+  authors: "Christian Sánchez-Sánchez, Héctor Jiménez-Salazar, Esaú Villatoro-Tello, Carlos Rodríguez-Lucatero, Gabriela Ramírez-de-la-Rosa"
+  venue: "Research in Computing Science, vol. 93, pages 45–56. May 2015"
+  year: 2015
+  type: regional
+  doi: 10.13053/rcs-93-1-4
+
+- title: "Sistema de Recomendación de Música basado en Aprendizaje Semi-supervisado"
+  authors: "José Roberto Alvarado-García, Janet Viridiana Hernández-García, Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Christian Sánchez-Sánchez"
+  venue: "Research in Computing Science, vol. 94, pages 97–109. May 2015"
+  year: 2015
+  type: regional
+  doi: 10.13053/rcs-94-1-8
+
+- title: "The Role of n-grams in Firstborns Identification"
+  authors: "Gabriela Ramírez-de-la-Rosa, Verónica Reyes-Meza, Esaú Villatoro-Tello, Héctor Jiménez-Salazar, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Advances in Artificial Intelligence and Soft Computing. Lecture Notes in Artificial Intelligence, vol. 9413, pages 95–106. Springer"
+  year: 2015
+  type: conference
+  doi: 10.1007/978-3-319-27060-9_8
+
+# ---------------------------------------------------------------- 2014
+- title: "PAN@FIRE: Overview of SOCO Track on the Detection of SOurce COde Re-use"
+  authors: "Enrique Flores, Paolo Rosso, Lidia Moreno, Esaú Villatoro-Tello"
+  venue: "Working Notes for the FIRE 2014 Forum for Information Retrieval Evaluation, Bangalore, India. December 2014"
+  year: 2014
+  type: workshop
+
+- title: "Towards Automatic Detection of User Influence in Twitter by means of Stylistic and Behavioral Features"
+  authors: "Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello, Héctor Jiménez-Salazar, Christian Sánchez-Sánchez"
+  venue: "Lecture Notes in Artificial Intelligence, vol. 8856, pages 245–256. November 2014"
+  year: 2014
+  type: conference
+  doi: 10.1007/978-3-319-13647-9_23
+
+- title: "Pertinence of Lexical and Structural Features for Plagiarism Detection in Source Code"
+  authors: "Aarón Ramírez-de-la-Cruz, Gabriela Ramírez-de-la-Rosa, Christian Sánchez-Sánchez, Héctor Jiménez-Salazar, Esaú Villatoro-Tello"
+  venue: "Research in Computing Science, vol. 85, pages 21–31. November 2014"
+  year: 2014
+  type: regional
+  doi: 10.13053/rcs-85-1-2
+
+- title: "UAMCLyR at RepLab 2014: Author Profiling Task. Notebook for RepLab 2014 at CLEF 2014"
+  authors: "Esaú Villatoro-Tello, Gabriela Ramírez-de-la-Rosa, Christian Sánchez-Sánchez, Héctor Jiménez-Salazar, Wulfrano A. Luna-Ramírez, Carlos Rodríguez-Lucatero"
+  venue: "Proceedings of the Fifth International Conference on the CLEF Initiative, Sheffield, UK. September 2014"
+  year: 2014
+  type: workshop
+
+- title: "Twitter como Referente de la Opinión Pública"
+  authors: "Ramón Gálvez-Pérez, Bárbara Gómez-Torrero, Raúl Ramírez-Chávez, Kathia Sánchez-Sandoval, Vicente Castellanos-Cerda, Roberto García-Madrid, Héctor Jiménez-Salazar, Esaú Villatoro-Tello"
+  venue: "World Association for Public Opinion Research (WAPOR 2014), Santiago de Chile. June 2014"
+  year: 2014
+  type: workshop
+
+- title: "Detectando la Prioridad de Contenidos Generados en Twitter por medio de n-gramas de Palabras"
+  authors: "Gerardo García-Rodríguez, Gabriela Ramírez-de-la-Rosa, Esaú Villatoro-Tello, Héctor Jiménez-Salazar"
+  venue: "Research in Computing Science, vol. 74, pages 21–32. May 2014"
+  year: 2014
+  type: regional
+  doi: 10.13053/rcs-74-1-2
+
+- title: "Herramienta de apoyo en la Detección de Reutilización de Código Fuente"
+  authors: "Raymundo Picazo-Álvarez, Esaú Villatoro-Tello, Wulfrano A. Luna-Ramírez, Carlos R. Jaimez-González"
+  venue: "Research in Computing Science, vol. 73, pages 45–57. May 2014"
+  year: 2014
+  type: regional
+  doi: 10.13053/rcs-73-1-3
+
+- title: "Laboratorio en Línea para el Procesamiento Automático de Documentos"
+  authors: "Julio C. Torres-López, Christian Sánchez-Sánchez, Esaú Villatoro-Tello"
+  venue: "Research in Computing Science, vol. 72, pages 23–36. May 2014"
+  year: 2014
+  type: regional
+  doi: 10.13053/rcs-72-1-2
+
+# ---------------------------------------------------------------- 2013
+- title: "UAMCLyR at RepLab 2013: Profiling Task"
+  authors: "Esaú Villatoro-Tello, Carlos Rodríguez-Lucatero, Christian Sánchez-Sánchez, A. Pastor López-Monroy"
+  venue: "Working Notes of the CLEF 2013 Conference and Labs of the Evaluation Forum, Valencia, Spain. September 2013"
+  year: 2013
+  type: workshop
+
+- title: "INAOE's participation at PAN'13: Author Profiling task"
+  authors: "A. Pastor López-Monroy, Manuel Montes-y-Gómez, Hugo J. Escalante, Luis Villaseñor-Pineda, Esaú Villatoro-Tello"
+  venue: "Working Notes of the CLEF 2013 Conference and Labs of the Evaluation Forum, Valencia, Spain. September 2013"
+  year: 2013
+  type: workshop
+  note: "2nd place, PAN@CLEF 2013 Author Profiling"
+
+- title: "Sexual Predator Detection in Chats with Chained Classifiers"
+  authors: "Hugo Jair Escalante, Esaú Villatoro-Tello, Antonio Juárez-González, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez"
+  venue: "Proceedings of the 4th Workshop on Computational Approaches to Subjectivity, Sentiment and Social Media Analysis (WASSA 2013) at NAACL-HLT 2013, pages 46–54. June 2013"
+  year: 2013
+  type: conference
+  web: https://aclanthology.org/W13-1607/
+
+- title: "Clasificación de Servicios Web Empleando Estrategias Supervisadas"
+  authors: "Víctor O. Díaz-Torres, Esaú Villatoro-Tello, Christian Sánchez-Sánchez, Héctor Jiménez-Salazar"
+  venue: "Research in Computing Science, vol. 62, pages 109–118. April 2013"
+  year: 2013
+  type: regional
+
+- title: "Análisis de Polaridad en Twitter"
+  authors: "Gilberto León-Martagón, Esaú Villatoro-Tello, Héctor Jiménez-Salazar, Christian Sánchez-Sánchez"
+  venue: "Research in Computing Science, vol. 62, pages 69–78. April 2013"
+  year: 2013
+  type: regional
+
+- title: "Determining and characterizing the reused text for plagiarism detection"
+  authors: "Fernando Sánchez-Vega, Esaú Villatoro-Tello, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda, Paolo Rosso"
+  venue: "Expert Systems with Applications, 40(5), pages 1804–1813. April 2013"
+  year: 2013
+  type: journal
+  doi: 10.1016/j.eswa.2012.09.021
+
+# ---------------------------------------------------------------- 2012
+- title: "A two-step Approach for Effective Detection of Misbehaving Users in Chats"
+  authors: "Esaú Villatoro-Tello, Antonio Juárez-González, Hugo Jair Escalante, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Working Notes of the CLEF 2012 Conference and Labs of the Evaluation Forum, CEUR vol. 1178, Rome, Italy. September 2012"
+  year: 2012
+  type: workshop
+  pdf: https://downloads.webis.de/pan/publications/papers/villatorotello_2012.pdf
+  note: "1st place, PAN@CLEF 2012 Sexual Predator Identification"
+  selected: true
+
+- title: "UAM at INEX 2012 Relevance Feedback Track: Using a Probabilistic Method for Ranking Refinement"
+  authors: "Esaú Villatoro-Tello, Christian Sánchez-Sánchez, Héctor Jiménez-Salazar, Wulfrano A. Luna-Ramírez, Carlos Rodríguez-Lucatero"
+  venue: "Working Notes of the CLEF 2012 Conference and Labs of the Evaluation Forum, Rome, Italy. September 2012"
+  year: 2012
+  type: workshop
+
+# ---------------------------------------------------------------- 2011
+- title: "Document Ranking Refinement Using a Markov Random Field Model"
+  authors: "Esaú Villatoro, Antonio Juárez, Manuel Montes, Luis Villaseñor, L. Enrique Sucar"
+  venue: "Natural Language Engineering, Special Issue on Statistical Learning of Natural Language Structured Input and Output, 18(2), pages 155–185"
+  year: 2011
+  type: journal
+  doi: 10.1017/S1351324912000010
+
+- title: "INAOE at DEFT 2011: using a Plagiarism Detection Method for Pairing Abstracts-Scientific Papers"
+  authors: "Fernando Sánchez-Vega, Esaú Villatoro-Tello, Antonio Juárez-González, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez, Luis Meneses-Lerín"
+  venue: "Proceedings of the Seventh DEFT Workshop (DEFT 2011), Montpellier, France. July 2011"
+  year: 2011
+  type: workshop
+
+# ---------------------------------------------------------------- 2010
+- title: "Concept Based Representations for Ranking in Geographic Information Retrieval"
+  authors: "Maya Carrillo, Esaú Villatoro, Aurelio López, Manuel Montes, Luis Villaseñor"
+  venue: "7th International Conference on Natural Language Processing (IceTAL 2010), Reykjavik, Iceland. Lecture Notes in Artificial Intelligence, vol. 6233, pages 85–96. Springer. August 2010"
+  year: 2010
+  type: conference
+  doi: 10.1007/978-3-642-14770-8_11
+
+- title: "A Probabilistic Method for Ranking Refinement in Geographic Information Retrieval"
+  authors: "Esaú Villatoro-Tello, R. Omar Chávez-García, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda, L. Enrique Sucar"
+  venue: "Procesamiento de Lenguaje Natural, no. 44, pages 123–130. April 2010"
+  year: 2010
+  type: regional
+
+# ---------------------------------------------------------------- 2009
+- title: "Ranking Refinement via Relevance Feedback in Geographic Information Retrieval"
+  authors: "Esaú Villatoro-Tello, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez"
+  venue: "Mexican International Conference on Artificial Intelligence (MICAI 2009), Guanajuato, Mexico. Lecture Notes in Artificial Intelligence, vol. 5845, pages 165–176. Springer. November 2009"
+  year: 2009
+  type: conference
+  doi: 10.1007/978-3-642-05258-3_15
+
+- title: "Multi-Document Summarization Based on Locally Relevant Sentences"
+  authors: "Esaú Villatoro-Tello, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez, David Pinto-Avendaño"
+  venue: "Mexican International Conference on Artificial Intelligence (MICAI 2009), Guanajuato, Mexico, pages 87–91. IEEE Computer Society. November 2009"
+  year: 2009
+  type: conference
+  doi: 10.1109/MICAI.2009.10
+
+- title: "Representing Context Information for Document Retrieval"
+  authors: "Maya Carrillo, Esaú Villatoro-Tello, Aurelio López-López, Chris Eliasmith, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Eighth International Conference on Flexible Query Answering Systems (FQAS 2009), Roskilde, Denmark. Lecture Notes in Artificial Intelligence, vol. 5822, pages 239–250. Springer. October 2009"
+  year: 2009
+  type: conference
+  doi: 10.1007/978-3-642-04957-6_21
+
+- title: "A Ranking Approach based on Sample Documents for Geographic Information Retrieval"
+  authors: "Esaú Villatoro-Tello, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Post-proceedings of the 9th Workshop of the Cross-Language Evaluation Forum (CLEF 2008). Lecture Notes in Computer Science, vol. 5706, pages 875–879. Springer"
+  year: 2009
+  type: conference
+  doi: 10.1007/978-3-642-04447-2_115
+
+# ---------------------------------------------------------------- 2008
+- title: "Recuperación de Información aplicando un Ordenamiento Basado en Documentos Ejemplo"
+  authors: "Esaú Villatoro-Tello, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez"
+  venue: "Memorias del 9o Encuentro de Investigación del INAOE, Puebla, Mexico. November 2008"
+  year: 2008
+  type: outreach
+
+- title: "INAOE at GeoCLEF 2008: A Ranking Approach based on Sample Documents"
+  authors: "Esaú Villatoro-Tello, Manuel Montes-y-Gómez, Luis Villaseñor-Pineda"
+  venue: "Working Notes of CLEF 2008, Aarhus, Denmark. September 2008"
+  year: 2008
+  type: workshop
+
+- title: "A Lexical Approach for Spanish Question Answering"
+  authors: "Alberto Téllez, Antonio Juárez, Gustavo Hernández, Claudia Denicia, Esaú Villatoro, Manuel Montes, Luis Villaseñor"
+  venue: "Advances in Multilingual and Multimodal Information Retrieval. Post-proceedings of the 8th Workshop of the Cross-Language Evaluation Forum (CLEF 2007). Lecture Notes in Computer Science, vol. 5152, pages 328–331. Springer"
+  year: 2008
+  type: conference
+  doi: 10.1007/978-3-540-85760-0_40
+
+# ---------------------------------------------------------------- 2007
+- title: "INAOE's Participation at QA@CLEF 2007"
+  authors: "Alberto Téllez, Antonio Juárez, Claudia Denicia, Gustavo Hernández, Esaú Villatoro, Manuel Montes, Luis Villaseñor"
+  venue: "Working Notes of CLEF 2007, Budapest, Hungary. September 2007"
+  year: 2007
+  type: workshop
+
+- title: "On the Use of Dynamic Information for Speaker Identification"
+  authors: "Rosa M. Ortega-Mendoza, Esaú Villatoro-Tello, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez, Eduardo Morales"
+  venue: "Advances in Computer Science and Engineering. Research in Computing Science, vol. 27, pages 161–166. April 2007"
+  year: 2007
+  type: regional
+
+# ---------------------------------------------------------------- 2006
+- title: "Using Word Sequences for Text Summarization"
+  authors: "Esaú Villatoro-Tello, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez"
+  venue: "9th International Conference on Text, Speech and Dialogue (TSD 2006), Brno, Czech Republic. Lecture Notes in Artificial Intelligence, vol. 4188, pages 293–300. Springer"
+  year: 2006
+  type: journal
+  doi: 10.1007/11846406_37
+
+# ---------------------------------------------------------------- 2005
+- title: "A Trainable Centroid-Based Document Summarizer"
+  authors: "Esaú Villatoro-Tello, Luis Villaseñor-Pineda, Manuel Montes-y-Gómez"
+  venue: "Workshop of Natural Language Understanding and Intelligent Access to Textual Information, Fourth Mexican International Conference on Artificial Intelligence (MICAI 2005), Monterrey, Mexico. November 2005"
+  year: 2005
+  type: workshop
+
+- title: "Comparación de Algoritmos de Aprendizaje para Identificación del Usuario a través de la Voz"
+  authors: "Esaú Villatoro, Luis Villaseñor, Manuel Montes"
+  venue: "Conferencia Latinoamericana de Interacción Humano-Computadora (CLIHC 2005), Cuernavaca, Mexico. October 2005"
+  year: 2005
+  type: abstract
